@@ -1,0 +1,37 @@
+2023-10-20 09:01:19.304 [info] 
+
+
+
+
+2023-10-20 09:01:19.322 [info] Extension host agent started.
+2023-10-20 09:01:19.405 [info] [127.0.0.1][17064a1e][ManagementConnection] New connection established.
+2023-10-20 09:01:19.407 [info] [127.0.0.1][dd5d6ea3][ExtensionHostConnection] New connection established.
+2023-10-20 09:01:19.628 [info] [127.0.0.1][dd5d6ea3][ExtensionHostConnection] <44963> Launched Extension Host Process.
+2023-10-20 09:01:25.878 [info] [127.0.0.1][17064a1e][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-10-20 09:01:25.908 [info] [127.0.0.1][dd5d6ea3][ExtensionHostConnection] <44963> Extension Host Process exited with code: 0, signal: null.
+2023-10-20 09:01:25.909 [info] Cancelling previous shutdown timeout
+2023-10-20 09:01:25.909 [info] Last EH closed, waiting before shutting down
+2023-10-20 09:01:33.265 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2023-10-20 09:01:33.266 [info] Cancelling previous shutdown timeout
+2023-10-20 09:01:33.339 [info] [127.0.0.1][4e88ebc8][ManagementConnection] New connection established.
+2023-10-20 09:01:33.371 [info] [127.0.0.1][3e6eaa2a][ExtensionHostConnection] New connection established.
+2023-10-20 09:01:33.408 [info] [127.0.0.1][3e6eaa2a][ExtensionHostConnection] <45165> Launched Extension Host Process.
+2023-10-20 09:01:35.613 [error] CodeExpectedError: Could not find pty on pty host
+    at A.U (/home/kaic2023/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/platform/terminal/node/ptyHostMain.js:44:32246)
+    at A.updateTitle (/home/kaic2023/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/platform/terminal/node/ptyHostMain.js:44:27446)
+    at V.<computed> (/home/kaic2023/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/platform/terminal/node/ptyHostMain.js:44:22715)
+    at Object.call (/home/kaic2023/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/platform/terminal/node/ptyHostMain.js:34:5059)
+    at h.s (/home/kaic2023/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/platform/terminal/node/ptyHostMain.js:32:5150)
+    at h.q (/home/kaic2023/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/platform/terminal/node/ptyHostMain.js:32:4661)
+    at g.value (/home/kaic2023/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/platform/terminal/node/ptyHostMain.js:32:4066)
+    at n.z (/home/kaic2023/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/platform/terminal/node/ptyHostMain.js:27:1902)
+    at n.fire (/home/kaic2023/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/platform/terminal/node/ptyHostMain.js:27:2119)
+    at process.he (/home/kaic2023/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/platform/terminal/node/ptyHostMain.js:25:9949)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2023-10-20 09:06:33.268 [info] New EH opened, aborting shutdown
+2023-10-20 10:09:01.637 [info] [127.0.0.1][4e88ebc8][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-10-20 10:09:01.666 [info] [127.0.0.1][3e6eaa2a][ExtensionHostConnection] <45165> Extension Host Process exited with code: 0, signal: null.
+2023-10-20 10:09:01.666 [info] Last EH closed, waiting before shutting down
+2023-10-20 10:14:01.666 [info] Last EH closed, shutting down

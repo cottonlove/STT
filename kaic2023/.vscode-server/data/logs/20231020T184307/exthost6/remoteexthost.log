@@ -1,0 +1,16 @@
+2023-10-20 19:26:55.853 [info] Extension host with pid 89485 started
+2023-10-20 19:26:55.867 [error] Error: EEXIST: file already exists, open '/home/kaic2023/.vscode-server/data/User/workspaceStorage/afa6b3739a17351f0004f3421ad6184d/vscode.lock'
+2023-10-20 19:26:55.877 [info] Lock '/home/kaic2023/.vscode-server/data/User/workspaceStorage/afa6b3739a17351f0004f3421ad6184d/vscode.lock': Could not acquire lock, checking if the file is stale.
+2023-10-20 19:26:55.939 [info] Lock '/home/kaic2023/.vscode-server/data/User/workspaceStorage/afa6b3739a17351f0004f3421ad6184d/vscode.lock': The lock does not look stale, elapsed: 393 ms, giving up.
+2023-10-20 19:26:56.016 [info] Lock '/home/kaic2023/.vscode-server/data/User/workspaceStorage/afa6b3739a17351f0004f3421ad6184d-1/vscode.lock': Lock acquired.
+2023-10-20 19:26:56.178 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-10-20 19:26:56.180 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+2023-10-20 19:26:57.227 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-10-20 19:26:57.384 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-10-20 19:26:57.384 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-10-20 19:26:57.712 [info] Eager extensions activated
+2023-10-20 19:26:57.713 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-10-20 19:26:57.714 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-10-20 19:27:52.452 [info] Extension host terminating: received terminate message from renderer
+2023-10-20 19:27:52.453 [info] Lock '/home/kaic2023/.vscode-server/data/User/workspaceStorage/afa6b3739a17351f0004f3421ad6184d-1/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2023-10-20 19:27:52.476 [info] Extension host with pid 89485 exiting with code 0

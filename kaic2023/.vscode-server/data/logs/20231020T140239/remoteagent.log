@@ -1,0 +1,19 @@
+2023-10-20 14:02:40.044 [info] Extension host agent started.
+2023-10-20 14:02:40.112 [error] [/home/kaic2023/.vscode-server/extensions/ms-python.python-2023.18.0]: Extension is not compatible with Code 1.74.3. Extension requires: ^1.82.0.
+2023-10-20 14:02:40.121 [error] [/home/kaic2023/.vscode-server/extensions/ms-python.python-2023.18.0]: Extension is not compatible with Code 1.74.3. Extension requires: ^1.82.0.
+2023-10-20 14:02:40.172 [info] [127.0.0.1][ed39235f][ManagementConnection] New connection established.
+2023-10-20 14:02:40.476 [error] [/home/kaic2023/.vscode-server/extensions/ms-python.python-2023.18.0]: Extension is not compatible with Code 1.74.3. Extension requires: ^1.82.0.
+2023-10-20 14:02:40.480 [error] [/home/kaic2023/.vscode-server/extensions/ms-python.python-2023.18.0]: Extension is not compatible with Code 1.74.3. Extension requires: ^1.82.0.
+2023-10-20 14:02:40.568 [info] [127.0.0.1][ff68b6f0][ExtensionHostConnection] New connection established.
+2023-10-20 14:02:40.577 [info] [127.0.0.1][ff68b6f0][ExtensionHostConnection] <64528> Launched Extension Host Process.
+2023-10-20 14:02:41.305 [error] [/home/kaic2023/.vscode-server/extensions/ms-python.python-2023.18.0]: Extension is not compatible with Code 1.74.3. Extension requires: ^1.82.0.
+2023-10-20 14:02:41.318 [error] [/home/kaic2023/.vscode-server/extensions/ms-python.python-2023.18.0]: Extension is not compatible with Code 1.74.3. Extension requires: ^1.82.0.
+2023-10-20 14:02:41.337 [error] [/home/kaic2023/.vscode-server/extensions/ms-python.python-2023.18.0]: Extension is not compatible with Code 1.74.3. Extension requires: ^1.82.0.
+2023-10-20 14:02:41.338 [error] [/home/kaic2023/.vscode-server/extensions/ms-python.python-2023.18.0]: Extension is not compatible with Code 1.74.3. Extension requires: ^1.82.0.
+2023-10-20 14:02:41.464 [error] [/home/kaic2023/.vscode-server/extensions/ms-python.python-2023.18.0]: Extension is not compatible with Code 1.74.3. Extension requires: ^1.82.0.
+2023-10-20 14:02:42.153 [error] [/home/kaic2023/.vscode-server/extensions/ms-python.python-2023.18.0]: Extension is not compatible with Code 1.74.3. Extension requires: ^1.82.0.
+2023-10-20 14:02:43.331 [error] [/home/kaic2023/.vscode-server/extensions/ms-python.python-2023.18.0]: Extension is not compatible with Code 1.74.3. Extension requires: ^1.82.0.
+2023-10-20 14:03:10.524 [info] [127.0.0.1][ff68b6f0][ExtensionHostConnection] The client has reconnected.
+2023-10-20 17:03:26.139 [info] [127.0.0.1][ff68b6f0][ExtensionHostConnection] <64528> Extension Host Process exited with code: 0, signal: null.
+2023-10-20 17:03:26.139 [info] Last EH closed, waiting before shutting down
+2023-10-20 17:08:26.141 [info] Last EH closed, shutting down

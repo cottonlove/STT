@@ -1,0 +1,2 @@
+yj code start!
+/data/Tr1Ko/train/train_label is a file

@@ -1,0 +1,127 @@
+2023-10-20 18:49:29.594 [info] Experiment 'pythonPromptNewFormatterExt' is active
+2023-10-20 18:49:29.595 [info] Experiment 'pythonPromptNewToolsExt' is active
+2023-10-20 18:49:29.595 [info] Experiment 'pythonTestAdaptercf' is active
+2023-10-20 18:49:29.595 [info] Test server listening.
+2023-10-20 18:49:29.595 [info] > conda info --json
+2023-10-20 18:49:29.595 [warning] Failed to check if /usr/bin/python3 is an executable [Error: ENOENT: no such file or directory, lstat '/usr/bin/python3'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/usr/bin/python3'
+}
+2023-10-20 18:49:29.595 [info] > /usr/share/anaconda/bin/conda info --json
+2023-10-20 18:49:29.625 [info] Found: /bin/python --> /bin/python2.7
+2023-10-20 18:49:29.630 [info] Found: /bin/python2 --> /bin/python2.7
+2023-10-20 18:49:29.634 [info] Found: /bin/python2.7 --> /bin/python2.7
+2023-10-20 18:49:29.678 [info] > /usr/bin/python3 -I ./kaic2023/.vscode-server/extensions/ms-python.python-2023.18.0/pythonFiles/get_output_via_markers.py ./kaic2023/.vscode-server/extensions/ms-python.python-2023.18.0/pythonFiles/interpreterInfo.py
+2023-10-20 18:49:29.679 [info] Found: /usr/bin/python --> /usr/bin/python2.7
+2023-10-20 18:49:29.680 [info] Found: /usr/bin/python2 --> /usr/bin/python2.7
+2023-10-20 18:49:29.680 [info] Found: /usr/bin/python2.7 --> /usr/bin/python2.7
+2023-10-20 18:49:29.816 [error] [Error: Command failed: /usr/bin/python3 -I /home/kaic2023/.vscode-server/extensions/ms-python.python-2023.18.0/pythonFiles/get_output_via_markers.py /home/kaic2023/.vscode-server/extensions/ms-python.python-2023.18.0/pythonFiles/interpreterInfo.py
+/bin/sh: /usr/bin/python3: No such file or directory
+
+	at ChildProcess.exithandler (node:child_process:420:12)
+	at ChildProcess.emit (node:events:513:28)
+	at maybeClose (node:internal/child_process:1091:16)
+	at Socket.<anonymous> (node:internal/child_process:449:11)
+	at Socket.emit (node:events:513:28)
+	at Pipe.<anonymous> (node:net:322:12)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: '/usr/bin/python3 -I /home/kaic2023/.vscode-server/extensions/ms-python.python-2023.18.0/pythonFiles/get_output_via_markers.py /home/kaic2023/.vscode-server/extensions/ms-python.python-2023.18.0/pythonFiles/interpreterInfo.py'
+}
+2023-10-20 18:49:29.969 [info] > /bin/python -I ./kaic2023/.vscode-server/extensions/ms-python.python-2023.18.0/pythonFiles/get_output_via_markers.py ./kaic2023/.vscode-server/extensions/ms-python.python-2023.18.0/pythonFiles/interpreterInfo.py
+2023-10-20 18:49:29.973 [warning] [Error: Command failed: /bin/python -I /home/kaic2023/.vscode-server/extensions/ms-python.python-2023.18.0/pythonFiles/get_output_via_markers.py /home/kaic2023/.vscode-server/extensions/ms-python.python-2023.18.0/pythonFiles/interpreterInfo.py
+Unknown option: -I
+usage: /bin/python [option] ... [-c cmd | -m mod | file | -] [arg] ...
+Try `python -h' for more information.
+
+	at ChildProcess.exithandler (node:child_process:420:12)
+	at ChildProcess.emit (node:events:513:28)
+	at maybeClose (node:internal/child_process:1091:16)
+	at Socket.<anonymous> (node:internal/child_process:449:11)
+	at Socket.emit (node:events:513:28)
+	at Pipe.<anonymous> (node:net:322:12)] {
+  code: 2,
+  killed: false,
+  signal: null,
+  cmd: '/bin/python -I /home/kaic2023/.vscode-server/extensions/ms-python.python-2023.18.0/pythonFiles/get_output_via_markers.py /home/kaic2023/.vscode-server/extensions/ms-python.python-2023.18.0/pythonFiles/interpreterInfo.py'
+}
+2023-10-20 18:49:29.974 [error] Support for Python 2.7 has been dropped by the Python extension so certain features may not work, upgrade to using Python 3.
+2023-10-20 18:49:29.985 [info] > /bin/python ./kaic2023/.vscode-server/extensions/ms-python.python-2023.18.0/pythonFiles/get_output_via_markers.py ./kaic2023/.vscode-server/extensions/ms-python.python-2023.18.0/pythonFiles/interpreterInfo.py
+2023-10-20 18:49:30.012 [info] > /usr/bin/python -I ./kaic2023/.vscode-server/extensions/ms-python.python-2023.18.0/pythonFiles/get_output_via_markers.py ./kaic2023/.vscode-server/extensions/ms-python.python-2023.18.0/pythonFiles/interpreterInfo.py
+2023-10-20 18:49:30.016 [warning] [Error: Command failed: /usr/bin/python -I /home/kaic2023/.vscode-server/extensions/ms-python.python-2023.18.0/pythonFiles/get_output_via_markers.py /home/kaic2023/.vscode-server/extensions/ms-python.python-2023.18.0/pythonFiles/interpreterInfo.py
+Unknown option: -I
+usage: /usr/bin/python [option] ... [-c cmd | -m mod | file | -] [arg] ...
+Try `python -h' for more information.
+
+	at ChildProcess.exithandler (node:child_process:420:12)
+	at ChildProcess.emit (node:events:513:28)
+	at maybeClose (node:internal/child_process:1091:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:302:5)] {
+  code: 2,
+  killed: false,
+  signal: null,
+  cmd: '/usr/bin/python -I /home/kaic2023/.vscode-server/extensions/ms-python.python-2023.18.0/pythonFiles/get_output_via_markers.py /home/kaic2023/.vscode-server/extensions/ms-python.python-2023.18.0/pythonFiles/interpreterInfo.py'
+}
+2023-10-20 18:49:30.016 [error] Support for Python 2.7 has been dropped by the Python extension so certain features may not work, upgrade to using Python 3.
+2023-10-20 18:49:30.027 [info] > /usr/bin/python ./kaic2023/.vscode-server/extensions/ms-python.python-2023.18.0/pythonFiles/get_output_via_markers.py ./kaic2023/.vscode-server/extensions/ms-python.python-2023.18.0/pythonFiles/interpreterInfo.py
+2023-10-20 18:49:30.076 [warning] Failed to check if /usr/bin/python3 is an executable [Error: ENOENT: no such file or directory, lstat '/usr/bin/python3'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/usr/bin/python3'
+}
+2023-10-20 18:49:30.076 [warning] Failed to check if /usr/bin/python3 is an executable [Error: ENOENT: no such file or directory, lstat '/usr/bin/python3'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/usr/bin/python3'
+}
+2023-10-20 18:49:31.278 [warning] Failed to check if /usr/bin/python3 is an executable [Error: ENOENT: no such file or directory, lstat '/usr/bin/python3'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/usr/bin/python3'
+}
+2023-10-20 18:49:31.278 [warning] Failed to check if /usr/bin/python3 is an executable [Error: ENOENT: no such file or directory, lstat '/usr/bin/python3'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/usr/bin/python3'
+}
+2023-10-20 18:49:31.825 [info] > /usr/bin/python3 -I ./kaic2023/.vscode-server/extensions/ms-python.python-2023.18.0/pythonFiles/get_output_via_markers.py ./kaic2023/.vscode-server/extensions/ms-python.python-2023.18.0/pythonFiles/interpreterInfo.py
+2023-10-20 18:49:31.827 [error] [Error: Command failed: /usr/bin/python3 -I /home/kaic2023/.vscode-server/extensions/ms-python.python-2023.18.0/pythonFiles/get_output_via_markers.py /home/kaic2023/.vscode-server/extensions/ms-python.python-2023.18.0/pythonFiles/interpreterInfo.py
+/bin/sh: /usr/bin/python3: No such file or directory
+
+	at ChildProcess.exithandler (node:child_process:420:12)
+	at ChildProcess.emit (node:events:513:28)
+	at maybeClose (node:internal/child_process:1091:16)
+	at Socket.<anonymous> (node:internal/child_process:449:11)
+	at Socket.emit (node:events:513:28)
+	at Pipe.<anonymous> (node:net:322:12)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: '/usr/bin/python3 -I /home/kaic2023/.vscode-server/extensions/ms-python.python-2023.18.0/pythonFiles/get_output_via_markers.py /home/kaic2023/.vscode-server/extensions/ms-python.python-2023.18.0/pythonFiles/interpreterInfo.py'
+}
+2023-10-20 18:49:31.831 [error] Unable to start Jedi language server as a valid interpreter is not selected
+2023-10-20 18:49:31.852 [warning] Failed to check if /usr/bin/python3 is an executable [Error: ENOENT: no such file or directory, lstat '/usr/bin/python3'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/usr/bin/python3'
+}
+2023-10-20 18:49:31.853 [warning] Failed to check if /usr/bin/python3 is an executable [Error: ENOENT: no such file or directory, lstat '/usr/bin/python3'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/usr/bin/python3'
+}
+2023-10-20 18:49:31.853 [warning] Failed to check if /usr/bin/python3 is an executable [Error: ENOENT: no such file or directory, lstat '/usr/bin/python3'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/usr/bin/python3'
+}

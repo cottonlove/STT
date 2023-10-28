@@ -1,0 +1,15 @@
+2023-10-20 19:09:09.850 [info] Extension host with pid 86879 started
+2023-10-20 19:09:09.851 [error] Error: EEXIST: file already exists, open '/home/kaic2023/.vscode-server/data/User/workspaceStorage/5629b2104ef31a5478321be38ff64d14/vscode.lock'
+2023-10-20 19:09:09.854 [info] Lock '/home/kaic2023/.vscode-server/data/User/workspaceStorage/5629b2104ef31a5478321be38ff64d14/vscode.lock': Could not acquire lock, checking if the file is stale.
+2023-10-20 19:09:09.859 [info] Lock '/home/kaic2023/.vscode-server/data/User/workspaceStorage/5629b2104ef31a5478321be38ff64d14/vscode.lock': The lock does not look stale, elapsed: 863 ms, giving up.
+2023-10-20 19:09:09.863 [info] Lock '/home/kaic2023/.vscode-server/data/User/workspaceStorage/5629b2104ef31a5478321be38ff64d14-1/vscode.lock': Lock acquired.
+2023-10-20 19:09:10.013 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-10-20 19:09:10.138 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-10-20 19:09:10.138 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-10-20 19:09:10.376 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-10-20 19:09:10.377 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+2023-10-20 19:09:10.377 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-10-20 19:09:10.378 [info] Eager extensions activated
+2023-10-20 19:21:48.227 [info] Extension host terminating: received terminate message from renderer
+2023-10-20 19:21:48.228 [info] Lock '/home/kaic2023/.vscode-server/data/User/workspaceStorage/5629b2104ef31a5478321be38ff64d14-1/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2023-10-20 19:21:48.241 [info] Extension host with pid 86879 exiting with code 0
