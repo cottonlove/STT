@@ -25,6 +25,7 @@ def parse_audio(audio_path: str, del_silence: bool = False, audio_extension: str
     feature /= np.std(feature)
     return torch.FloatTensor(feature).transpose(0, 1)
 
+#TODO (revise말고 반복되는 문제 해결방법 없나???)
 def revise(sentence):
     words = sentence[0].split()
     result = []

@@ -31,78 +31,48 @@ from modules.inference import single_infer
 from modules.data import split_dataset, split_and_cross_validate, collate_fn #for cross validation
 
 from torch.utils.data import DataLoader
-
-import nova
-from nova import DATASET_PATH
+import wandb
 
 #여길 고쳐서 여러개의 checkpoints 가능해짐
-def bind_model(model, optimizer=None):
+# def bind_model(model, optimizer=None):
     
-    #최종 model.pt 파일 저장하기
-    def save(path, *args, **kwargs):
-        state = {
-            'model': model.state_dict(),
-            'optimizer': optimizer.state_dict()
-        }
-        torch.save(state, os.path.join(path, 'model.pt'))
-        print('Model saved')
+#     #최종 model.pt 파일 저장하기
+#     def save(path, *args, **kwargs):
+#         state = {
+#             'model': model.state_dict(),
+#             'optimizer': optimizer.state_dict()
+#         }
+#         torch.save(state, os.path.join(path, 'model.pt'))
+#         print('Model saved')
 
-    #model params 불러오기
-    def load(path, *args, **kwargs):
-        state = torch.load(os.path.join(path, 'model.pt'))
-        model.load_state_dict(state['model'])
-        if 'optimizer' in state and optimizer:
-            optimizer.load_state_dict(state['optimizer'])
-        print('Model loaded')
+#     #model params 불러오기
+#     def load(path, *args, **kwargs):
+#         state = torch.load(os.path.join(path, 'model.pt'))
+#         model.load_state_dict(state['model'])
+#         if 'optimizer' in state and optimizer:
+#             optimizer.load_state_dict(state['optimizer'])
+#         print('Model loaded')
 
-    # 추론
-    def infer(path, **kwargs):
-        return inference(path, model)
+#     # 추론
+#     def infer(path, **kwargs):
+#         return inference(path, model)
 
-    nova.bind(save=save, load=load, infer=infer)  # 'nova.bind' function must be called at the end.
+#     # nova.bind(save=save, load=load, infer=infer)  # 'nova.bind' function must be called at the end.
 
 
-def inference(path, model, **kwargs):
+# def inference(path, model, **kwargs):
     
-    model.eval()
-
-    results = []
-    for i in glob(os.path.join(path, '*')):
-        results.append(
-            {
-                'filename': i.split('/')[-1],
-                'text': single_infer(model, i)[0]
-            }
-        )
-    return sorted(results, key=lambda x: x['filename'])
-
-# # 현진 코드 추가한 것
-# def sample_inference(paths, transcripts, model, vocab):
-#     recover = False
-#     if model.training:
-#         recover = True
 #     model.eval()
 
 #     results = []
-#     dataset_path = os.path.join(DATASET_PATH, 'train', 'train_data')
-#     for index in range(len(paths)):
-#         path = paths[index]
-#         transcript = transcripts[index]
-#         labels = [int(label) for label in transcript.split()]
-#         labels_np = np.ndarray(labels)
-#         #only one
-#         for i in glob(os.path.join(dataset_path, path)):
-#             results.append(
-#                 {
-#                     'filename': i.split('/')[-1],
-#                     'text': single_infer(model, i)[0],
-#                     'transcript': vocab.label_to_string(labels_np)
-#                 }
-#             )
-#     if recover:
-#         model.train()
-#     return results
-
+#     for i in glob(os.path.join(path, '*')):
+#         results.append(
+#             {
+#                 'filename': i.split('/')[-1],
+#                 'text': single_infer(model, i)[0]
+#             }
+#         )
+#     return sorted(results, key=lambda x: x['filename'])
 
 if __name__ == '__main__':
 
@@ -169,16 +139,26 @@ if __name__ == '__main__':
 
     config = args.parse_args()
     warnings.filterwarnings('ignore')
-    
-    #print("os.getcwd",os.getcwd()) #/app
 
     random.seed(config.seed)
     torch.manual_seed(config.seed)
     torch.cuda.manual_seed_all(config.seed)
     device = 'cuda' if config.use_cuda == True else 'cpu'
+    print("device: ", device)
     if hasattr(config, "num_threads") and int(config.num_threads) > 0:
         torch.set_num_threads(config.num_threads)
+    
+    #TODO (dataset_path 정하기. Vocabulary 만들기)
+    DATASET_PATH = ""
+    Model_PATH = ""
 
+     #TODO
+    # start a new wandb run to track this script
+    wandb.init(project ="STT")
+    wandb.run.name = "First wandb"
+    wandb.run.save()
+    wandb.config.update(config)
+    
     # #여기에 vocab 다르게 해주자!
     # print("yj preprocessing start")
     # transcripts_dest = os.path.join(DATASET_PATH, 'train', 'train_label')
@@ -195,35 +175,21 @@ if __name__ == '__main__':
     #vocab = KoreanSpeechVocabulary(os.path.join(os.getcwd(), 'labels.csv'), output_unit='character')
     model = build_model(config, vocab, device)
     optimizer = get_optimizer(model, config)
-    bind_model(model, optimizer=optimizer)
     metric = get_metric(metric_name='CER', vocab=vocab)
 
-    if config.pause:
-        nova.paused(scope=locals())
+   
+
     if config.mode == 'train':
 
         #Load DATASET
         config.dataset_path = os.path.join(DATASET_PATH, 'train', 'train_data')
         label_path = os.path.join(DATASET_PATH, 'train', 'train_label')
         
-        # #여기에 vocab 다르게 해주자!
-        # print("yj preprocessing start")
-        # transcripts_dest = os.path.join(DATASET_PATH, 'train', 'train_label')
-        # transcript_df = pd.read_csv(transcripts_dest) #이미 하나로 모은 듯! transcript_df: []
-        # # # yj. 문장부호 등 다 없애주기 (전처리)
-        # transcript_df['text'] = transcript_df['text'].map(lambda x:onlyletters(x))  #sentence_filter(x, 'phonetic')
-        # # # labels2.csv를 새로 만들기 (Vocab)
-        # label_dest =os.path.join(os.getcwd(), 'yj_labels.csv')
-        # generate_character_labels(transcript_df, label_dest) #-> 이건 main에서 하자!
-        # print("generated yj_labels.csv")
-    
-        
         ##labels.csv 대신 다른 거 쓰기
         vocab = KoreanSpeechVocabulary(os.path.join(os.getcwd(), 'newlabel.csv'), output_unit='character')
         #vocab = KoreanSpeechVocabulary(os.path.join(os.getcwd(), 'labels.csv'), output_unit='character')
         model = build_model(config, vocab, device)
         optimizer = get_optimizer(model, config)
-        bind_model(model, optimizer=optimizer)
         metric = get_metric(metric_name='CER', vocab=vocab)
         #preprocessing
         preprocessing(label_path, os.getcwd())
@@ -295,123 +261,16 @@ if __name__ == '__main__':
 
             print('[INFO] Epoch %d (Validation) Loss %0.4f  CER %0.4f' % (epoch, valid_loss, valid_cer))
 
-            nova.report(
-                summary=True,
-                epoch=epoch,
-                train_loss=train_loss,
-                train_cer=train_cer,
-                val_loss=valid_loss,
-                val_cer=valid_cer
-            )
-
             if epoch % config.checkpoint_every == 0:
-                nova.save(epoch)
+                state = {
+                    'model': model.state_dict(),
+                    'optimizer': optimizer.state_dict()
+                    }
+                model_filename = str(epoch) + '.pt'
+                torch.save(state, os.path.join(Model_PATH, model_filename))
+                print('Model saved')
 
             torch.cuda.empty_cache()
             print(f'[INFO] epoch {epoch} is done')
         print('[INFO] train process is done')
     
-
-    # if config.mode == 'train':
-
-    #     #Load DATASET
-    #     config.dataset_path = os.path.join(DATASET_PATH, 'train', 'train_data')
-    #     label_path = os.path.join(DATASET_PATH, 'train', 'train_label')
-        
-    #     #여기에 vocab 다르게 해주자!
-    #     print("yj preprocessing start")
-    #     transcripts_dest = os.path.join(DATASET_PATH, 'train', 'train_label')
-    #     transcript_df = pd.read_csv(transcripts_dest) #이미 하나로 모은 듯! transcript_df: []
-    #     # # yj. 문장부호 등 다 없애주기 (전처리)
-    #     transcript_df['text'] = transcript_df['text'].map(lambda x:onlyletters(x))  #sentence_filter(x, 'phonetic')
-    #     # # labels2.csv를 새로 만들기 (Vocab)
-    #     label_dest =os.path.join(os.getcwd(), 'yj_labels.csv')
-    #     generate_character_labels(transcript_df, label_dest) #-> 이건 main에서 하자!
-    #     print("generated yj_labels.csv")
-    
-    #     #labels.csv 대신 다른 거 쓰기
-    #     vocab = KoreanSpeechVocabulary(os.path.join(os.getcwd(), 'yj_labels.csv'), output_unit='character')
-    #     #preprocessing
-    #     #preprocessing(label_path, os.getcwd())
-    #     preprocessing(transcript_df, os.getcwd())
-
-    #     #TRAIN/VAL DATASET SPLIT -> 여기도 바꿔주기 (cross validation & transcript.txt -> 다른 걸로!)
-    #     train_dataset, valid_dataset = split_dataset(config, os.path.join(os.getcwd(), 'yj_transcripts.txt'), vocab)
-    #     #train_datasets, valid_datasets = split_and_cross_validate(config, os.path.join(os.getcwd(), 'transcripts.txt'), vocab)
-    #     lr_scheduler = get_lr_scheduler(config, optimizer, len(train_dataset))
-    #     optimizer = Optimizer(optimizer, lr_scheduler, int(len(train_dataset)*config.num_epochs), config.max_grad_norm)
-    #     criterion = get_criterion(config, vocab)
-
-    #     num_epochs = config.num_epochs
-    #     num_workers = config.num_workers
-
-    #     train_begin_time = time.time()
-
-    #     for epoch in range(num_epochs):
-    #         print('[INFO] Epoch %d start' % epoch)
-
-    #         # train
-
-    #         train_loader = DataLoader(
-    #             train_dataset,
-    #             batch_size=config.batch_size,
-    #             shuffle=True,
-    #             collate_fn=collate_fn,
-    #             num_workers=config.num_workers
-    #         )
-
-    #         model, train_loss, train_cer = trainer(
-    #             'train',
-    #             config,
-    #             train_loader,
-    #             optimizer,
-    #             model,
-    #             criterion,
-    #             metric,
-    #             train_begin_time,
-    #             device,
-    #             vocab
-    #         )
-
-    #         print('[INFO] Epoch %d (Training) Loss %0.4f CER %0.4f' % (epoch, train_loss, train_cer))
-
-    #         # valid
-
-    #         valid_loader = DataLoader(
-    #             valid_dataset,
-    #             batch_size=config.batch_size,
-    #             shuffle=True,
-    #             collate_fn=collate_fn,
-    #             num_workers=config.num_workers
-    #         )
-
-    #         model, valid_loss, valid_cer = trainer(
-    #             'valid',
-    #             config,
-    #             valid_loader,
-    #             optimizer,
-    #             model,
-    #             criterion,
-    #             metric,
-    #             train_begin_time,
-    #             device,
-    #             vocab
-    #         )
-
-    #         print('[INFO] Epoch %d (Validation) Loss %0.4f  CER %0.4f' % (epoch, valid_loss, valid_cer))
-
-    #         nova.report(
-    #             summary=True,
-    #             epoch=epoch,
-    #             train_loss=train_loss,
-    #             train_cer=train_cer,
-    #             val_loss=valid_loss,
-    #             val_cer=valid_cer
-    #         )
-
-    #         if epoch % config.checkpoint_every == 0:
-    #             nova.save(epoch)
-
-    #         torch.cuda.empty_cache()
-    #         print(f'[INFO] epoch {epoch} is done')
-    #     print('[INFO] train process is done')
