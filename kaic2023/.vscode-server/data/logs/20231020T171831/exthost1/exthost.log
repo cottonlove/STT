@@ -1,6 +1,0 @@
-2023-10-20 17:18:32.652 [info] Extension host with pid 76658 started
-2023-10-20 17:18:32.766 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
-2023-10-20 17:18:33.099 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
-2023-10-20 17:18:33.099 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
-2023-10-20 17:18:33.623 [info] Extension host terminating: received terminate message from renderer
-2023-10-20 17:18:33.624 [info] Extension host with pid 76658 exiting with code 0
