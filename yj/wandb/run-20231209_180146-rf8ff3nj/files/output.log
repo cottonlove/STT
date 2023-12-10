@@ -1,0 +1,1006 @@
+
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.run.save without any arguments is deprecated.Changes to attributes are automatically persisted.
+[INFO] create_script started..
+[INFO] Preprocessing is Done
+split dataset start !!
+os.getcwd in load_dataset /root/STT/yj
+open transcripts_path, load data
+st_set3_collectorgs198_speakergs2076_1_7.wav	둥가지로
+ 쓸 나무는 또갈라가
+ 저쪽 담장 밑에 쌓아두면 됨니더
+	834 9 13 40 3 472 3 16 63 7 3 127 184 34 9 3 129 226 3 358 111 3 584 20 3 664 8 173 26 3 1254 23 82
+st_set3_collectorgs183_speakergs2074_57_9.wav	올해는 날씨도 좋았고 비도 적당하구로 와가
+ 밭 농사가 정말 잘 된 편이라
+	208 32 7 3 122 386 21 3 96 141 10 3 124 21 3 148 223 17 65 40 3 160 9 3 1109 3 611 36 9 3 86 79 3 105 3 234 3 244 6 34
+st_set3_collectorgs233_speakergs2008_37_11.wav	배미에 물리만
+ 병원에 가야지 된장 같은 거 마음대로 바르면 큰일 남니데이
+	193 153 20 3 162 33 48 3 371 84 20 3 9 27 13 3 234 111 3 46 25 3 12 3 72 85 52 40 3 118 116 26 3 387 41 3 197 23 14 6
+st_set3_collectorgs195_speakergs1950_81_9.wav	비가 마이 오만 축대부터 살피고 위험하다 시프마 듬썩
+ 집에서 빨리 나와야 합니다	124 9 3 72 6 3 59 48 3 450 52 92 164 3 175 194 10 3 239 305 17 18 3 49 255 72 3 1009 1015 3 142 20 19 3 326 33 3 16 160 27 3 393 23 18
+st_set3_collectorgs212_speakergs1976_92_9.wav	처음에는 형한테 화가 마이 낟썬는디 이야기를 듣다 보이꺼네 이해가 되더라고예
+	188 85 20 7 3 259 29 156 3 137 9 3 72 6 3 1094 7 192 3 6 27 24 57 3 385 18 3 44 6 431 98 3 6 32 9 3 54 82 34 10 163
+st_set3_collectorgs183_speakergs2034_17_10.wav	다리가 아프고 날이 뜨거우니께 저 그름지에
+ 잠시 쉬었다고 가는 것이 안 좋겠나	18 33 9 3 8 255 10 3 122 6 3 527 12 70 23 504 3 129 3 5 292 13 20 3 389 49 3 409 64 18 10 3 9 7 3 108 6 3 39 3 96 87 16
+st_set3_collectorgs233_speakergs2008_30_13.wav	더리에 살 밑이 다 빼껴졌는디
+ 연고를 바르니께
+ 힘이 희한하구마
+ 금방 가라앉네요	82 33 20 3 175 3 584 6 3 18 3 428 524 349 7 192 3 149 10 57 3 118 116 23 504 3 254 6 3 441 29 17 65 72 3 90 185 3 9 34 535 98 71
+st_set3_collectorgs184_speakergs1067_9_8.wav	겨울에 머글 채소나 가일 가튼 거슨 오데 보관해쓰니껴?
+	302 232 20 3 237 369 3 473 174 16 3 9 41 3 9 368 3 12 278 3 59 14 3 44 220 32 238 23 524 15
+st_set3_collectorgs233_speakergs2008_43_13.wav	베를 짜다가 줄이 터져 비만 끊어진 데를 마카 이사가
+ 다시 짜야 함니데이	458 57 3 76 18 9 3 248 6 3 164 283 3 124 48 3 499 11 56 3 14 57 3 72 222 3 6 36 9 3 18 49 3 76 27 3 462 23 14 6
+st_set3_collectorgs233_speakergs2008_13_11.wav	지사를
+ 안 모실 것 같으면 모리지만
+ 지사를
+ 모실 것 가트마
+ 정성을 드려야 된데이	13 36 57 3 39 3 107 151 3 108 3 46 55 26 3 107 33 13 48 3 13 36 57 3 107 151 3 108 3 9 158 72 3 86 211 30 3 120 110 27 3 234 14 6
+st_set3_collectorgs195_speakergs1950_31_8.wav	나이가 드이께이 귀끼가 어두워져가 사람들이 무신 말을 해도 잘 몬 알아듣겠니데이
+	16 6 9 3 120 6 504 6 3 355 319 9 3 11 173 214 283 9 3 36 99 38 6 3 63 147 3 79 30 3 32 21 3 105 3 731 3 104 8 385 87 23 14 6
+st_set3_collectorgs183_speakergs2034_34_12.wav	채동이
+ 걸리면 영 얼굴이 노랗게 돼 가지고 사람이 기운이 하나도 없어 보인데이	473 126 6 3 106 33 26 3 152 3 231 437 6 3 241 1209 22 3 161 3 9 13 10 3 36 99 6 3 24 177 6 3 17 16 21 3 78 11 3 44 61 14 6
+st_set3_collectorgs185_speakergs2007_83_10.wav	두릅은 살짜기 데쳐가
+ 무쳐 먹기도 하고 꼬치장에
+ 찍어 먹기도 한다	173 1491 25 3 175 76 24 3 14 397 9 3 63 397 3 89 24 21 3 17 10 3 464 123 111 20 3 322 11 3 89 24 21 3 29 18
+st_set3_collectorgs183_speakergs2074_77_11.wav	여게는
+ 시골이라 교통이 좀 불편한데 공기도 깨끔하고
+ 경치가 참 조아예	88 22 7 3 49 454 6 34 3 117 265 6 3 103 3 296 244 29 14 3 145 24 21 3 483 330 17 10 3 198 123 9 3 405 3 213 8 163
+st_set3_collectorgs212_speakergs1976_70_9.wav	알라가 어제부터 열이 안 떠러지는디
+ 이라다 길 나는 거 애인지
+ 모르겠다	104 34 9 3 11 45 92 164 3 230 6 3 39 3 514 60 13 7 192 3 6 34 18 3 273 3 16 7 3 12 3 69 61 13 3 107 116 87 18
+st_set3_collectorgs233_speakergs3263_33_13.wav	옛날에는 왜놈들이 살을 다 빼들어가 가지고
+ 뭐 다른 게 없어 가지고 꽁당보리밥으로만 먹었어요	366 122 20 7 3 143 794 38 6 3 175 30 3 18 3 428 38 11 9 3 9 13 10 3 42 3 18 210 3 22 3 78 11 3 9 13 10 3 891 223 44 33 297 55 40 48 3 89 64 11 71
+st_set3_collectorgs183_speakergs2074_14_10.wav	밭이 별로 크지도 아느이꺼네 카배추보다는
+ 상추 거튼 걸 숨구는 기 조씀니더	1109 6 3 235 40 3 240 13 21 3 8 206 6 431 98 3 222 193 313 44 18 7 3 109 313 3 12 368 3 106 3 722 65 7 3 24 3 213 717 23 82
+st_set3_collectorgs233_speakergs2008_60_13.wav	일이 힘들어도 돈 뻐리가
+ 손주들 용돈이라도 줄 수 있으니께
+ 조치로
+	41 6 3 254 38 11 21 3 186 3 658 33 9 3 398 77 38 3 263 186 6 34 21 3 248 3 67 3 28 55 23 504 3 213 123 40
+st_set3_collectorgs185_speakergs2007_36_10.wav	넘의 무시 구디가 어데 있는지 아는 사람은 다 다른 집 무시를 빼가지고
+ 했다	348 132 3 63 49 3 65 192 9 3 11 14 3 28 7 13 3 8 7 3 36 99 25 3 18 3 18 210 3 142 3 63 49 57 3 428 9 13 10 3 66 18
+st_set3_collectorgs183_speakergs2034_65_12.wav	여게는 전에 살던 때보다 시설도 좋고 애들 학교도 정말 가차와
+ 좋은데요	88 22 7 3 94 20 3 175 115 3 53 44 18 3 49 356 21 3 96 10 3 69 38 3 80 117 21 3 86 79 3 9 168 160 3 96 25 14 71
+st_set3_collectorgs233_speakergs2008_105_14.wav	배치 한 포기 키우는 것도 이러쿠럼 힘든다 어머이는 우예 평생 농새를
+ 짓고 살았을라	193 123 3 29 3 298 24 3 264 70 7 3 108 21 3 6 60 546 166 3 254 91 18 3 11 237 6 7 3 70 163 3 378 73 3 611 262 57 3 583 10 3 175 141 30 34
+st_set3_collectorgs198_speakergs2076_67_8.wav	오늘 비 올 것 가트니께네
+ 우산 챙겨갖고 이자뿌리지 말고 단디 챙겨 온나	59 277 3 124 3 208 3 108 3 9 158 23 504 98 3 70 252 3 560 302 301 10 3 6 47 659 33 13 3 79 10 3 125 192 3 560 302 3 271 16
+st_set3_collectorgs185_speakergs2007_74_8.wav	지금 안개도 짙고 파도가 높아가지고 배 배가 못 당긴다고
+ 하대예
+	13 90 3 39 170 21 3 1545 10 3 249 21 9 3 503 8 9 13 10 3 193 3 193 9 3 128 3 223 146 18 10 3 17 52 163
+st_set3_collectorgs233_speakergs2008_75_11.wav	이부시 좀 시끄러워도 사이가 불편해질까 봐 고마
+ 참고 사란니더	6 92 49 3 103 3 49 518 60 214 21 3 36 6 9 3 296 244 32 303 31 3 154 3 10 72 3 405 10 3 36 384 23 82
+st_set3_collectorgs184_speakergs1067_88_8.wav	스님이 시주하로
+ 오만 마이는
+ 못 드래도 쌀을 쪼매슥 담아 드리고 그랬니도	81 218 6 3 49 77 17 40 3 59 48 3 72 6 7 3 128 3 120 35 21 3 725 30 3 323 251 1284 3 358 8 3 120 33 10 3 5 182 23 21
+st_set3_collectorgs198_speakergs2076_88_9.wav	스님이 시조로
+ 오면 마이는 몬 드리고 쌀을 쪼매쓱 담아드리고 그랜니더	81 218 6 3 49 213 40 3 59 26 3 72 6 7 3 731 3 120 33 10 3 725 30 3 323 251 1219 3 358 8 120 33 10 3 5 463 23 82
+st_set3_collectorgs233_speakergs2008_23_9.wav	오랜만에 가조찌리
+ 외식 한번 하자고 하는디
+ 그것도 몬 하면 왜 우야는교	59 463 48 20 3 9 213 547 33 3 281 191 3 29 95 3 17 47 10 3 17 7 192 3 5 108 21 3 731 3 17 26 3 143 3 70 27 7 117
+st_set3_collectorgs198_speakergs1457_18_11.wav	도르깨가 꽤나 무거우니까니 허리 다칠 수 이쓰니까네 타작 털 때 살살 뚜드리래이
+	21 116 483 9 3 639 16 3 63 12 70 23 31 23 3 442 33 3 18 320 3 67 3 6 238 23 31 98 3 187 228 3 685 3 53 3 175 175 3 875 120 33 35 6
+st_set3_collectorgs185_speakergs2084_65_9.wav	여게는
+ 전에 살던 데보다 시설도 좋고 애들 학교 가기도 가까바가 조태이	88 22 7 3 94 20 3 175 115 3 14 44 18 3 49 356 21 3 96 10 3 69 38 3 80 117 3 9 24 21 3 9 31 118 9 3 213 364 6
+st_set3_collectorgs185_speakergs2007_69_7.wav	가족끼리 해돋이 보면서 새해 다짐도 하고 소원도 빌고 올라꼬
+ 한다	9 403 319 33 3 32 1018 6 3 44 26 19 3 262 32 3 18 510 21 3 17 10 3 174 84 21 3 545 10 3 208 34 464 3 29 18
+st_set3_collectorgs185_speakergs2007_61_11.wav	이 구두 신은 지 오 년이 지낟껀데
+ 굽이 다 딸가가 이자는
+ 내삐려도 되겠다	6 3 65 173 3 147 25 3 13 3 59 3 157 6 3 13 1130 14 3 996 6 3 18 3 556 9 9 3 6 47 7 3 43 799 110 21 3 54 87 18
+st_set3_collectorgs198_speakergs2076_52_7.wav	윤디를
+ 화로에 올려 놓고 떠그로 달궈가
+ 윤디지를
+ 하시러
+	763 192 57 3 137 40 20 3 208 110 3 345 10 3 514 5 40 3 199 1076 9 3 763 192 13 57 3 17 49 60
+st_set3_collectorgs195_speakergs1950_13_10.wav	제사를 안 모실 거 가트만 모 모 모리지만
+ 지사를
+ 모실 것 가트만 정성을 들어야 됨니더
+	45 36 57 3 39 3 107 151 3 12 3 9 158 48 3 107 3 107 3 107 33 13 48 3 13 36 57 3 107 151 3 108 3 9 158 48 3 86 211 30 3 38 11 27 3 1254 23 82
+st_set3_collectorgs212_speakergs2542_22_9.wav	오새 날씨가 가물어서 농새도 못 짓고 계속 집에만 읻쓰니께네 정말 답땀네
+	59 262 3 122 386 9 3 9 162 11 19 3 611 262 21 3 128 3 583 10 3 144 180 3 142 20 48 3 238 23 504 98 3 86 79 3 440 953 98
+st_set3_collectorgs183_speakergs2034_88_15.wav	스님이 시주하러 오만
+ 많이 몬 드려도 살을 쪼매쓱 담아드리고 그랜니더	81 218 6 3 49 77 17 60 3 59 48 3 83 6 3 731 3 120 110 21 3 175 30 3 323 251 1219 3 358 8 120 33 10 3 5 463 23 82
+st_set3_collectorgs183_speakergs2034_83_12.wav	두릎을 살짜기 데쳐가
+ 문쳐 묵끼도 하고 꼬치장에
+ 찍어 먹기도 했었네	173 954 30 3 175 76 24 3 14 397 9 3 159 397 3 938 319 21 3 17 10 3 464 123 111 20 3 322 11 3 89 24 21 3 66 64 98
+Applying Spec Augmentation...
+Applying Spec Augmentation...
+[INFO] Epoch 0 start
+[INFO] train Start
+[INFO] step:    0/ 308, loss: 54.378990, cer: 61.89, elapsed: 5.67s 0.13m 0.00h, lr: 0.000000
+[INFO] step:   50/ 308, loss: 7.801066, cer: 7.74, elapsed: 2.22s 2.26m 0.04h, lr: 0.000005
+[INFO] step:  100/ 308, loss: 6.426288, cer: 4.43, elapsed: 2.00s 4.29m 0.07h, lr: 0.000010
+[INFO] step:  150/ 308, loss: 5.391964, cer: 3.30, elapsed: 1.63s 5.82m 0.10h, lr: 0.000015
+[INFO] step:  200/ 308, loss: 4.831408, cer: 2.72, elapsed: 1.95s 7.32m 0.12h, lr: 0.000020
+[INFO] step:  250/ 308, loss: 4.567878, cer: 2.37, elapsed: 1.82s 8.83m 0.15h, lr: 0.000025
+[INFO] step:  300/ 308, loss: 4.528547, cer: 2.14, elapsed: 1.88s 10.31m 0.17h, lr: 0.000030
+[INFO] Epoch 0 (Training) Loss 10.0317 CER 2.1114
+[INFO] valid Start
+[INFO] step:    0/  77, loss: 4.405741, cer: 2.10, elapsed: 1.14s 0.07m 0.18h, lr: 0.000031
+[34m[1mwandb[39m[22m: [33mWARNING[39m Step only supports monotonically increasing values, use define_metric to set a custom x axis. For details see: https://wandb.me/define-metric
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 308 is less than current step: 616. Dropping entry: {'Training CER/epoch': 2.112835109574174, '_timestamp': 1702145550.2707992}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 308 is less than current step: 616. Dropping entry: {'Training loss/epoch': 10.031739275176804, '_timestamp': 1702145550.2712212}).
+[INFO] step:   50/  77, loss: 4.525574, cer: 1.95, elapsed: 1.21s 1.10m 0.19h, lr: 0.000031
+[INFO] Epoch 0 (Validation) Loss 4.4527  CER 1.8762
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 77 is less than current step: 770. Dropping entry: {'Validation CER/epoch': 1.8782815587849249, '_timestamp': 1702145649.8409345}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 77 is less than current step: 770. Dropping entry: {'Validation loss/epoch': 4.452670964327726, '_timestamp': 1702145649.841305}).
+Model saved
+[INFO] epoch 0 is done
+[INFO] Epoch 1 start
+[INFO] train Start
+[INFO] step:    0/ 308, loss: 4.407088, cer: 1.87, elapsed: 1.63s 0.08m 0.21h, lr: 0.000031
+[INFO] step:   50/ 308, loss: 4.256136, cer: 1.77, elapsed: 1.90s 1.58m 0.23h, lr: 0.000036
+[INFO] step:  100/ 308, loss: 4.227197, cer: 1.68, elapsed: 1.91s 3.07m 0.26h, lr: 0.000041
+[INFO] step:  150/ 308, loss: 4.166513, cer: 1.61, elapsed: 1.69s 4.55m 0.28h, lr: 0.000046
+[INFO] step:  200/ 308, loss: 4.082211, cer: 1.55, elapsed: 1.86s 6.04m 0.31h, lr: 0.000051
+[INFO] step:  250/ 308, loss: 4.013649, cer: 1.50, elapsed: 1.75s 7.54m 0.33h, lr: 0.000056
+[INFO] step:  300/ 308, loss: 3.889207, cer: 1.46, elapsed: 1.63s 9.05m 0.36h, lr: 0.000061
+[INFO] Epoch 1 (Training) Loss 4.1677 CER 1.4569
+[INFO] valid Start
+[INFO] step:    0/  77, loss: 3.960320, cer: 1.46, elapsed: 1.17s 0.07m 0.36h, lr: 0.000062
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 308 is less than current step: 1386. Dropping entry: {'Training CER/epoch': 1.4572422454111589, '_timestamp': 1702146210.251927}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 308 is less than current step: 1386. Dropping entry: {'Training loss/epoch': 4.167693884341748, '_timestamp': 1702146210.2524}).
+[INFO] step:   50/  77, loss: 4.024896, cer: 1.42, elapsed: 1.26s 1.12m 0.38h, lr: 0.000062
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 77 is less than current step: 1540. Dropping entry: {'Validation CER/epoch': 1.4033304167415945, '_timestamp': 1702146310.8330727}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 77 is less than current step: 1540. Dropping entry: {'Validation loss/epoch': 3.942952078658265, '_timestamp': 1702146310.8335311}).
+[INFO] Epoch 1 (Validation) Loss 3.9430  CER 1.4028
+Model saved
+[INFO] epoch 1 is done
+[INFO] Epoch 2 start
+[INFO] train Start
+[INFO] step:    0/ 308, loss: 3.993260, cer: 1.40, elapsed: 1.90s 0.09m 0.39h, lr: 0.000062
+[INFO] step:   50/ 308, loss: 3.855072, cer: 1.37, elapsed: 1.74s 1.60m 0.41h, lr: 0.000067
+[INFO] step:  100/ 308, loss: 3.788574, cer: 1.35, elapsed: 1.77s 3.11m 0.44h, lr: 0.000072
+[INFO] step:  150/ 308, loss: 3.673406, cer: 1.32, elapsed: 1.84s 4.58m 0.46h, lr: 0.000077
+[INFO] step:  200/ 308, loss: 3.593857, cer: 1.30, elapsed: 1.71s 6.08m 0.49h, lr: 0.000082
+[INFO] step:  250/ 308, loss: 3.461152, cer: 1.28, elapsed: 1.76s 7.58m 0.51h, lr: 0.000087
+[INFO] step:  300/ 308, loss: 3.420781, cer: 1.26, elapsed: 1.90s 9.08m 0.54h, lr: 0.000092
+[INFO] Epoch 2 (Training) Loss 3.6600 CER 1.2547
+[INFO] valid Start
+[INFO] step:    0/  77, loss: 3.443640, cer: 1.25, elapsed: 1.16s 0.08m 0.54h, lr: 0.000092
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 308 is less than current step: 2156. Dropping entry: {'Training CER/epoch': 1.2548069268852227, '_timestamp': 1702146873.1202004}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 308 is less than current step: 2156. Dropping entry: {'Training loss/epoch': 3.6599591676290935, '_timestamp': 1702146873.120588}).
+[INFO] step:   50/  77, loss: 3.313196, cer: 1.24, elapsed: 1.20s 1.12m 0.56h, lr: 0.000092
+[INFO] Epoch 2 (Validation) Loss 3.4154  CER 1.2283
+Model saved
+[INFO] epoch 2 is done
+[INFO] Epoch 3 start
+[INFO] train Start
+[INFO] step:    0/ 308, loss: 3.295307, cer: 1.23, elapsed: 2.08s 0.09m 0.57h, lr: 0.000092
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 77 is less than current step: 2310. Dropping entry: {'Validation CER/epoch': 1.228515788320466, '_timestamp': 1702146974.2768304}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 77 is less than current step: 2310. Dropping entry: {'Validation loss/epoch': 3.4153905905686415, '_timestamp': 1702146974.2771838}).
+[INFO] step:   50/ 308, loss: 3.201935, cer: 1.21, elapsed: 1.71s 1.60m 0.60h, lr: 0.000097
+[INFO] step:  100/ 308, loss: 3.099210, cer: 1.20, elapsed: 1.92s 3.10m 0.62h, lr: 0.000100
+[INFO] step:  150/ 308, loss: 2.808557, cer: 1.18, elapsed: 1.65s 4.59m 0.65h, lr: 0.000100
+[INFO] step:  200/ 308, loss: 2.700144, cer: 1.16, elapsed: 1.77s 6.07m 0.67h, lr: 0.000100
+[INFO] step:  250/ 308, loss: 2.595705, cer: 1.15, elapsed: 1.85s 7.58m 0.70h, lr: 0.000100
+[INFO] step:  300/ 308, loss: 2.274258, cer: 1.13, elapsed: 1.77s 9.08m 0.72h, lr: 0.000100
+[INFO] Epoch 3 (Training) Loss 2.8341 CER 1.1310
+[INFO] valid Start
+[INFO] step:    0/  77, loss: 2.418419, cer: 1.13, elapsed: 1.19s 0.08m 0.73h, lr: 0.000100
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 308 is less than current step: 2926. Dropping entry: {'Training CER/epoch': 1.1311494864258331, '_timestamp': 1702147536.8567019}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 308 is less than current step: 2926. Dropping entry: {'Training loss/epoch': 2.83406382489514, '_timestamp': 1702147536.8570704}).
+[INFO] step:   50/  77, loss: 2.478565, cer: 1.12, elapsed: 1.22s 1.12m 0.75h, lr: 0.000100
+[INFO] Epoch 3 (Validation) Loss 2.4528  CER 1.1097
+Model saved
+[INFO] epoch 3 is done
+[INFO] Epoch 4 start
+[INFO] train Start
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 77 is less than current step: 3080. Dropping entry: {'Validation CER/epoch': 1.1098967276697351, '_timestamp': 1702147637.5697694}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 77 is less than current step: 3080. Dropping entry: {'Validation loss/epoch': 2.4527855755446795, '_timestamp': 1702147637.5701466}).
+[INFO] step:    0/ 308, loss: 2.242916, cer: 1.11, elapsed: 1.71s 0.09m 0.76h, lr: 0.000100
+[INFO] step:   50/ 308, loss: 2.124784, cer: 1.10, elapsed: 1.89s 1.60m 0.78h, lr: 0.000100
+[INFO] step:  100/ 308, loss: 2.055775, cer: 1.08, elapsed: 1.79s 3.09m 0.81h, lr: 0.000100
+[INFO] step:  150/ 308, loss: 1.923438, cer: 1.07, elapsed: 1.67s 4.58m 0.83h, lr: 0.000100
+[INFO] step:  200/ 308, loss: 1.877043, cer: 1.06, elapsed: 1.87s 6.06m 0.86h, lr: 0.000100
+[INFO] step:  250/ 308, loss: 1.791124, cer: 1.04, elapsed: 1.60s 7.56m 0.88h, lr: 0.000100
+[INFO] step:  300/ 308, loss: 1.717682, cer: 1.03, elapsed: 1.79s 9.07m 0.91h, lr: 0.000100
+[INFO] Epoch 4 (Training) Loss 1.9613 CER 1.0301
+[INFO] valid Start
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 308 is less than current step: 3696. Dropping entry: {'Training CER/epoch': 1.0301568292657017, '_timestamp': 1702148199.1619556}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 308 is less than current step: 3696. Dropping entry: {'Training loss/epoch': 1.9612503129166443, '_timestamp': 1702148199.1622813}).
+[INFO] step:    0/  77, loss: 1.847294, cer: 1.03, elapsed: 1.25s 0.08m 0.91h, lr: 0.000100
+[INFO] step:   50/  77, loss: 1.773828, cer: 1.02, elapsed: 1.22s 1.12m 0.93h, lr: 0.000100
+[INFO] Epoch 4 (Validation) Loss 1.8251  CER 1.0134
+Model saved
+[INFO] epoch 4 is done
+[INFO] Epoch 5 start
+[INFO] train Start
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 77 is less than current step: 3850. Dropping entry: {'Validation CER/epoch': 1.0135532647596608, '_timestamp': 1702148300.08482}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 77 is less than current step: 3850. Dropping entry: {'Validation loss/epoch': 1.8251010907160772, '_timestamp': 1702148300.0851784}).
+[INFO] step:    0/ 308, loss: 1.546766, cer: 1.01, elapsed: 1.72s 0.09m 0.94h, lr: 0.000100
+[INFO] step:   50/ 308, loss: 1.530625, cer: 1.00, elapsed: 1.82s 1.59m 0.97h, lr: 0.000100
+[INFO] step:  100/ 308, loss: 1.281977, cer: 0.99, elapsed: 1.70s 3.09m 0.99h, lr: 0.000100
+[INFO] step:  150/ 308, loss: 1.492810, cer: 0.98, elapsed: 1.69s 4.59m 1.02h, lr: 0.000100
+[INFO] step:  200/ 308, loss: 1.455783, cer: 0.97, elapsed: 1.97s 6.08m 1.04h, lr: 0.000100
+[INFO] step:  250/ 308, loss: 1.318242, cer: 0.96, elapsed: 1.88s 7.59m 1.07h, lr: 0.000100
+[INFO] step:  300/ 308, loss: 1.269099, cer: 0.95, elapsed: 1.63s 9.09m 1.09h, lr: 0.000100
+[INFO] Epoch 5 (Training) Loss 1.4241 CER 0.9528
+[INFO] valid Start
+[INFO] step:    0/  77, loss: 1.379646, cer: 0.95, elapsed: 1.11s 0.08m 1.10h, lr: 0.000100
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 308 is less than current step: 4466. Dropping entry: {'Training CER/epoch': 0.95284818903007, '_timestamp': 1702148863.3940713}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 308 is less than current step: 4466. Dropping entry: {'Training loss/epoch': 1.424134616727953, '_timestamp': 1702148863.3948917}).
+[INFO] step:   50/  77, loss: 1.388305, cer: 0.94, elapsed: 1.17s 1.11m 1.11h, lr: 0.000100
+[INFO] Epoch 5 (Validation) Loss 1.4793  CER 0.9402
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 77 is less than current step: 4620. Dropping entry: {'Validation CER/epoch': 0.9402901110965337, '_timestamp': 1702148964.3477254}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 77 is less than current step: 4620. Dropping entry: {'Validation loss/epoch': 1.47927696054632, '_timestamp': 1702148964.348286}).
+Model saved
+[INFO] epoch 5 is done
+[INFO] Epoch 6 start
+[INFO] train Start
+[INFO] step:    0/ 308, loss: 1.129270, cer: 0.94, elapsed: 1.83s 0.09m 1.13h, lr: 0.000100
+[INFO] step:   50/ 308, loss: 1.215341, cer: 0.93, elapsed: 1.79s 1.60m 1.15h, lr: 0.000100
+[INFO] step:  100/ 308, loss: 1.187807, cer: 0.92, elapsed: 1.77s 3.11m 1.18h, lr: 0.000100
+[INFO] step:  150/ 308, loss: 1.172615, cer: 0.92, elapsed: 1.74s 4.62m 1.20h, lr: 0.000100
+[INFO] step:  200/ 308, loss: 1.048063, cer: 0.91, elapsed: 1.82s 6.11m 1.23h, lr: 0.000100
+[INFO] step:  250/ 308, loss: 0.994080, cer: 0.90, elapsed: 1.75s 7.60m 1.25h, lr: 0.000100
+[INFO] step:  300/ 308, loss: 1.006479, cer: 0.90, elapsed: 1.94s 9.09m 1.28h, lr: 0.000100
+[INFO] Epoch 6 (Training) Loss 1.1065 CER 0.8955
+[INFO] valid Start
+[INFO] step:    0/  77, loss: 1.151463, cer: 0.90, elapsed: 1.14s 0.07m 1.28h, lr: 0.000100
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 308 is less than current step: 5236. Dropping entry: {'Training CER/epoch': 0.8955151184692387, '_timestamp': 1702149527.4891374}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 308 is less than current step: 5236. Dropping entry: {'Training loss/epoch': 1.1064698713553416, '_timestamp': 1702149527.4896305}).
+[INFO] step:   50/  77, loss: 1.391933, cer: 0.89, elapsed: 1.25s 1.12m 1.30h, lr: 0.000100
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 77 is less than current step: 5390. Dropping entry: {'Validation CER/epoch': 0.8867298727092726, '_timestamp': 1702149628.5542824}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 77 is less than current step: 5390. Dropping entry: {'Validation loss/epoch': 1.2906163992819848, '_timestamp': 1702149628.5546806}).
+[INFO] Epoch 6 (Validation) Loss 1.2906  CER 0.8866
+Model saved
+[INFO] epoch 6 is done
+[INFO] Epoch 7 start
+[INFO] train Start
+[INFO] step:    0/ 308, loss: 0.909418, cer: 0.89, elapsed: 1.76s 0.09m 1.31h, lr: 0.000100
+[INFO] step:   50/ 308, loss: 0.974028, cer: 0.88, elapsed: 1.83s 1.60m 1.34h, lr: 0.000100
+[INFO] step:  100/ 308, loss: 0.833139, cer: 0.87, elapsed: 1.78s 3.09m 1.36h, lr: 0.000100
+[INFO] step:  150/ 308, loss: 0.909654, cer: 0.87, elapsed: 1.70s 4.57m 1.39h, lr: 0.000100
+[INFO] step:  200/ 308, loss: 0.816737, cer: 0.86, elapsed: 1.84s 6.08m 1.41h, lr: 0.000100
+[INFO] step:  250/ 308, loss: 1.040279, cer: 0.86, elapsed: 1.89s 7.56m 1.44h, lr: 0.000100
+[INFO] step:  300/ 308, loss: 0.841940, cer: 0.85, elapsed: 1.78s 9.04m 1.46h, lr: 0.000100
+[INFO] Epoch 7 (Training) Loss 0.9103 CER 0.8533
+[INFO] valid Start
+[INFO] step:    0/  77, loss: 1.233538, cer: 0.85, elapsed: 1.08s 0.07m 1.47h, lr: 0.000100
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 308 is less than current step: 6006. Dropping entry: {'Training CER/epoch': 0.8532995528784322, '_timestamp': 1702150188.59039}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 308 is less than current step: 6006. Dropping entry: {'Training loss/epoch': 0.9102524886657666, '_timestamp': 1702150188.5907755}).
+[INFO] step:   50/  77, loss: 1.105940, cer: 0.85, elapsed: 1.22s 1.11m 1.48h, lr: 0.000100
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 77 is less than current step: 6160. Dropping entry: {'Validation CER/epoch': 0.847033597102611, '_timestamp': 1702150289.1803944}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 77 is less than current step: 6160. Dropping entry: {'Validation loss/epoch': 1.1605423185732457, '_timestamp': 1702150289.1807537}).
+[INFO] Epoch 7 (Validation) Loss 1.1605  CER 0.8470
+Model saved
+[INFO] epoch 7 is done
+[INFO] Epoch 8 start
+[INFO] train Start
+[INFO] step:    0/ 308, loss: 0.807357, cer: 0.85, elapsed: 1.64s 0.09m 1.49h, lr: 0.000100
+[INFO] step:   50/ 308, loss: 0.819351, cer: 0.84, elapsed: 1.85s 1.58m 1.52h, lr: 0.000100
+[INFO] step:  100/ 308, loss: 0.759335, cer: 0.84, elapsed: 1.74s 3.07m 1.54h, lr: 0.000100
+[INFO] step:  150/ 308, loss: 0.752898, cer: 0.83, elapsed: 1.90s 4.57m 1.57h, lr: 0.000100
+[INFO] step:  200/ 308, loss: 0.737457, cer: 0.83, elapsed: 1.81s 6.08m 1.59h, lr: 0.000100
+[INFO] step:  250/ 308, loss: 0.697604, cer: 0.83, elapsed: 1.90s 7.57m 1.62h, lr: 0.000100
+[INFO] step:  300/ 308, loss: 0.672263, cer: 0.82, elapsed: 1.69s 9.06m 1.64h, lr: 0.000100
+[INFO] Epoch 8 (Training) Loss 0.7668 CER 0.8216
+[INFO] valid Start
+[INFO] step:    0/  77, loss: 1.147590, cer: 0.82, elapsed: 1.24s 0.08m 1.65h, lr: 0.000100
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 308 is less than current step: 6776. Dropping entry: {'Training CER/epoch': 0.8216253841350528, '_timestamp': 1702150850.8632038}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 308 is less than current step: 6776. Dropping entry: {'Training loss/epoch': 0.7668473085799774, '_timestamp': 1702150850.8635457}).
+[INFO] step:   50/  77, loss: 1.161021, cer: 0.82, elapsed: 1.05s 1.11m 1.67h, lr: 0.000100
+[INFO] Epoch 8 (Validation) Loss 1.1001  CER 0.8167
+Model saved
+[INFO] epoch 8 is done
+[INFO] Epoch 9 start
+[INFO] train Start
+[INFO] step:    0/ 308, loss: 0.665347, cer: 0.82, elapsed: 1.81s 0.08m 1.68h, lr: 0.000100
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 77 is less than current step: 6930. Dropping entry: {'Validation CER/epoch': 0.8167620958586631, '_timestamp': 1702150951.4193978}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 77 is less than current step: 6930. Dropping entry: {'Validation loss/epoch': 1.1000968558447701, '_timestamp': 1702150951.4197621}).
+[INFO] step:   50/ 308, loss: 0.792413, cer: 0.81, elapsed: 1.75s 1.57m 1.70h, lr: 0.000100
+[INFO] step:  100/ 308, loss: 0.593751, cer: 0.81, elapsed: 1.65s 3.07m 1.73h, lr: 0.000100
+[INFO] step:  150/ 308, loss: 0.678974, cer: 0.81, elapsed: 1.69s 4.57m 1.75h, lr: 0.000100
+[INFO] step:  200/ 308, loss: 0.662117, cer: 0.80, elapsed: 1.72s 6.06m 1.78h, lr: 0.000100
+[INFO] step:  250/ 308, loss: 0.574894, cer: 0.80, elapsed: 1.86s 7.56m 1.80h, lr: 0.000100
+[INFO] step:  300/ 308, loss: 0.741783, cer: 0.80, elapsed: 1.60s 9.03m 1.83h, lr: 0.000100
+[INFO] Epoch 9 (Training) Loss 0.6644 CER 0.7972
+[INFO] valid Start
+[INFO] step:    0/  77, loss: 1.006595, cer: 0.80, elapsed: 1.25s 0.08m 1.83h, lr: 0.000100
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 308 is less than current step: 7546. Dropping entry: {'Training CER/epoch': 0.7972464309374996, '_timestamp': 1702151510.5783637}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 308 is less than current step: 7546. Dropping entry: {'Training loss/epoch': 0.6644264836977054, '_timestamp': 1702151510.5787225}).
+[INFO] step:   50/  77, loss: 1.175362, cer: 0.80, elapsed: 1.30s 1.11m 1.85h, lr: 0.000100
+[INFO] Epoch 9 (Validation) Loss 1.0446  CER 0.7946
+Model saved
+[INFO] epoch 9 is done
+[INFO] Epoch 10 start
+[INFO] train Start
+[INFO] step:    0/ 308, loss: 0.557648, cer: 0.79, elapsed: 1.64s 0.08m 1.86h, lr: 0.000100
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 77 is less than current step: 7700. Dropping entry: {'Validation CER/epoch': 0.7946489554408119, '_timestamp': 1702151610.7185051}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 77 is less than current step: 7700. Dropping entry: {'Validation loss/epoch': 1.0445740277116948, '_timestamp': 1702151610.7187715}).
+[INFO] step:   50/ 308, loss: 0.642977, cer: 0.79, elapsed: 1.98s 1.57m 1.89h, lr: 0.000100
+[INFO] step:  100/ 308, loss: 0.536893, cer: 0.79, elapsed: 1.79s 3.07m 1.91h, lr: 0.000100
+[INFO] step:  150/ 308, loss: 0.556185, cer: 0.79, elapsed: 1.72s 4.57m 1.94h, lr: 0.000100
+[INFO] step:  200/ 308, loss: 0.598554, cer: 0.78, elapsed: 2.07s 6.05m 1.96h, lr: 0.000100
+[INFO] step:  250/ 308, loss: 0.504718, cer: 0.78, elapsed: 1.75s 7.51m 1.99h, lr: 0.000100
+[INFO] step:  300/ 308, loss: 0.610407, cer: 0.78, elapsed: 1.89s 9.02m 2.01h, lr: 0.000100
+[INFO] Epoch 10 (Training) Loss 0.5750 CER 0.7793
+[INFO] valid Start
+[INFO] step:    0/  77, loss: 0.963533, cer: 0.78, elapsed: 1.22s 0.07m 2.02h, lr: 0.000100
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 308 is less than current step: 8316. Dropping entry: {'Training CER/epoch': 0.7792715681611883, '_timestamp': 1702152169.9619453}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 308 is less than current step: 8316. Dropping entry: {'Training loss/epoch': 0.5750159157754539, '_timestamp': 1702152169.9623337}).
+[INFO] step:   50/  77, loss: 1.055614, cer: 0.78, elapsed: 1.28s 1.10m 2.03h, lr: 0.000100
+[INFO] Epoch 10 (Validation) Loss 1.0164  CER 0.7765
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 77 is less than current step: 8470. Dropping entry: {'Validation CER/epoch': 0.776549684628621, '_timestamp': 1702152269.8473375}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 77 is less than current step: 8470. Dropping entry: {'Validation loss/epoch': 1.0163558930545658, '_timestamp': 1702152269.8477135}).
+Model saved
+[INFO] epoch 10 is done
+[INFO] Epoch 11 start
+[INFO] train Start
+[INFO] step:    0/ 308, loss: 0.574411, cer: 0.78, elapsed: 1.69s 0.08m 2.04h, lr: 0.000100
+[INFO] step:   50/ 308, loss: 0.436570, cer: 0.77, elapsed: 1.73s 1.57m 2.07h, lr: 0.000100
+[INFO] step:  100/ 308, loss: 0.425863, cer: 0.77, elapsed: 1.76s 3.08m 2.09h, lr: 0.000100
+[INFO] step:  150/ 308, loss: 0.579225, cer: 0.77, elapsed: 1.67s 4.59m 2.12h, lr: 0.000100
+[INFO] step:  200/ 308, loss: 0.415048, cer: 0.77, elapsed: 1.93s 6.05m 2.14h, lr: 0.000100
+[INFO] step:  250/ 308, loss: 0.482899, cer: 0.77, elapsed: 1.77s 7.54m 2.17h, lr: 0.000100
+[INFO] step:  300/ 308, loss: 0.539542, cer: 0.76, elapsed: 1.78s 9.02m 2.19h, lr: 0.000100
+[INFO] Epoch 11 (Training) Loss 0.5088 CER 0.7644
+[INFO] valid Start
+[INFO] step:    0/  77, loss: 0.915649, cer: 0.76, elapsed: 1.16s 0.07m 2.20h, lr: 0.000100
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 308 is less than current step: 9086. Dropping entry: {'Training CER/epoch': 0.7643784544168691, '_timestamp': 1702152828.4639366}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 308 is less than current step: 9086. Dropping entry: {'Training loss/epoch': 0.5088392971204473, '_timestamp': 1702152828.464291}).
+[INFO] step:   50/  77, loss: 1.016560, cer: 0.76, elapsed: 1.21s 1.12m 2.22h, lr: 0.000100
+[INFO] Epoch 11 (Validation) Loss 1.0090  CER 0.7634
+Model saved
+[INFO] epoch 11 is done
+[INFO] Epoch 12 start
+[INFO] train Start
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 77 is less than current step: 9240. Dropping entry: {'Validation CER/epoch': 0.7633822921963356, '_timestamp': 1702152928.5405583}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 77 is less than current step: 9240. Dropping entry: {'Validation loss/epoch': 1.009038157277293, '_timestamp': 1702152928.5409317}).
+[INFO] step:    0/ 308, loss: 0.503356, cer: 0.76, elapsed: 1.80s 0.09m 2.23h, lr: 0.000100
+[INFO] step:   50/ 308, loss: 0.460892, cer: 0.76, elapsed: 1.70s 1.59m 2.25h, lr: 0.000100
+[INFO] step:  100/ 308, loss: 0.518590, cer: 0.76, elapsed: 1.53s 3.07m 2.28h, lr: 0.000100
+[INFO] step:  150/ 308, loss: 0.469092, cer: 0.76, elapsed: 1.77s 4.55m 2.30h, lr: 0.000100
+[INFO] step:  200/ 308, loss: 0.454357, cer: 0.76, elapsed: 1.68s 6.05m 2.33h, lr: 0.000100
+[INFO] step:  250/ 308, loss: 0.379892, cer: 0.76, elapsed: 1.70s 7.55m 2.35h, lr: 0.000100
+[INFO] step:  300/ 308, loss: 0.484352, cer: 0.75, elapsed: 1.81s 9.04m 2.38h, lr: 0.000100
+[INFO] Epoch 12 (Training) Loss 0.4461 CER 0.7535
+[INFO] valid Start
+[INFO] step:    0/  77, loss: 0.907783, cer: 0.75, elapsed: 1.19s 0.08m 2.38h, lr: 0.000100
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 308 is less than current step: 9856. Dropping entry: {'Training CER/epoch': 0.7535528608896938, '_timestamp': 1702153488.2880244}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 308 is less than current step: 9856. Dropping entry: {'Training loss/epoch': 0.4460963260430794, '_timestamp': 1702153488.28835}).
+[INFO] step:   50/  77, loss: 0.916406, cer: 0.75, elapsed: 1.20s 1.11m 2.40h, lr: 0.000100
+[INFO] Epoch 12 (Validation) Loss 0.9808  CER 0.7519
+Model saved
+[INFO] epoch 12 is done
+[INFO] Epoch 13 start
+[INFO] train Start
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 77 is less than current step: 10010. Dropping entry: {'Validation CER/epoch': 0.7519220610509254, '_timestamp': 1702153588.302361}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 77 is less than current step: 10010. Dropping entry: {'Validation loss/epoch': 0.9808021923164268, '_timestamp': 1702153588.302722}).
+[INFO] step:    0/ 308, loss: 0.490939, cer: 0.75, elapsed: 1.88s 0.09m 2.41h, lr: 0.000100
+[INFO] step:   50/ 308, loss: 0.362973, cer: 0.75, elapsed: 1.84s 1.58m 2.44h, lr: 0.000100
+[INFO] step:  100/ 308, loss: 0.443645, cer: 0.75, elapsed: 1.67s 3.08m 2.46h, lr: 0.000100
+[INFO] step:  150/ 308, loss: 0.396403, cer: 0.75, elapsed: 1.78s 4.56m 2.49h, lr: 0.000100
+[INFO] step:  200/ 308, loss: 0.390942, cer: 0.75, elapsed: 1.69s 6.06m 2.51h, lr: 0.000100
+[INFO] step:  250/ 308, loss: 0.429912, cer: 0.75, elapsed: 1.68s 7.52m 2.54h, lr: 0.000100
+[INFO] step:  300/ 308, loss: 0.415910, cer: 0.74, elapsed: 1.71s 9.01m 2.56h, lr: 0.000100
+[INFO] Epoch 13 (Training) Loss 0.4044 CER 0.7440
+[INFO] valid Start
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 308 is less than current step: 10626. Dropping entry: {'Training CER/epoch': 0.744031193976928, '_timestamp': 1702154146.93802}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 308 is less than current step: 10626. Dropping entry: {'Training loss/epoch': 0.40443788913937356, '_timestamp': 1702154146.938382}).
+[INFO] step:    0/  77, loss: 1.052655, cer: 0.74, elapsed: 1.16s 0.07m 2.56h, lr: 0.000100
+[INFO] step:   50/  77, loss: 0.957047, cer: 0.74, elapsed: 1.21s 1.10m 2.58h, lr: 0.000100
+[INFO] Epoch 13 (Validation) Loss 0.9660  CER 0.7433
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 77 is less than current step: 10780. Dropping entry: {'Validation CER/epoch': 0.7433047338949792, '_timestamp': 1702154252.0291135}).
+Model saved
+[INFO] epoch 13 is done
+[INFO] Epoch 14 start
+[INFO] train Start
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 77 is less than current step: 10780. Dropping entry: {'Validation loss/epoch': 0.9660240914914515, '_timestamp': 1702154252.0294585}).
+[INFO] step:    0/ 308, loss: 0.354828, cer: 0.74, elapsed: 1.62s 0.09m 2.60h, lr: 0.000100
+[INFO] step:   50/ 308, loss: 0.326691, cer: 0.74, elapsed: 1.88s 1.58m 2.62h, lr: 0.000100
+[INFO] step:  100/ 308, loss: 0.319347, cer: 0.74, elapsed: 1.81s 3.09m 2.65h, lr: 0.000100
+[INFO] step:  150/ 308, loss: 0.347133, cer: 0.74, elapsed: 1.64s 4.61m 2.67h, lr: 0.000100
+[INFO] step:  200/ 308, loss: 0.360473, cer: 0.74, elapsed: 1.76s 6.10m 2.70h, lr: 0.000100
+[INFO] step:  250/ 308, loss: 0.331944, cer: 0.74, elapsed: 1.73s 7.58m 2.72h, lr: 0.000100
+[INFO] step:  300/ 308, loss: 0.324862, cer: 0.74, elapsed: 1.79s 9.06m 2.75h, lr: 0.000100
+[INFO] Epoch 14 (Training) Loss 0.3652 CER 0.7368
+[INFO] valid Start
+[INFO] step:    0/  77, loss: 0.972517, cer: 0.74, elapsed: 1.27s 0.08m 2.75h, lr: 0.000100
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 308 is less than current step: 11396. Dropping entry: {'Training CER/epoch': 0.736777260228223, '_timestamp': 1702154813.6337352}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 308 is less than current step: 11396. Dropping entry: {'Training loss/epoch': 0.3651614073035005, '_timestamp': 1702154813.6341355}).
+[INFO] step:   50/  77, loss: 0.911733, cer: 0.74, elapsed: 1.30s 1.10m 2.77h, lr: 0.000100
+[INFO] Epoch 14 (Validation) Loss 0.9663  CER 0.7358
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 77 is less than current step: 11550. Dropping entry: {'Validation CER/epoch': 0.7357878786334912, '_timestamp': 1702154913.465121}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 77 is less than current step: 11550. Dropping entry: {'Validation loss/epoch': 0.9663043339531143, '_timestamp': 1702154913.4654949}).
+Model saved
+[INFO] epoch 14 is done
+[INFO] Epoch 15 start
+[INFO] train Start
+[INFO] step:    0/ 308, loss: 0.318473, cer: 0.74, elapsed: 1.84s 0.09m 2.78h, lr: 0.000100
+[INFO] step:   50/ 308, loss: 0.352484, cer: 0.73, elapsed: 1.75s 1.58m 2.80h, lr: 0.000100
+[INFO] step:  100/ 308, loss: 0.335686, cer: 0.73, elapsed: 1.78s 3.05m 2.83h, lr: 0.000100
+[INFO] step:  150/ 308, loss: 0.347579, cer: 0.73, elapsed: 1.79s 4.55m 2.85h, lr: 0.000100
+[INFO] step:  200/ 308, loss: 0.323597, cer: 0.73, elapsed: 1.77s 6.06m 2.88h, lr: 0.000100
+[INFO] step:  250/ 308, loss: 0.296167, cer: 0.73, elapsed: 1.65s 7.53m 2.90h, lr: 0.000100
+[INFO] step:  300/ 308, loss: 0.303544, cer: 0.73, elapsed: 1.89s 9.03m 2.93h, lr: 0.000100
+[INFO] Epoch 15 (Training) Loss 0.3316 CER 0.7305
+[INFO] valid Start
+[INFO] step:    0/  77, loss: 1.118758, cer: 0.73, elapsed: 1.48s 0.08m 2.93h, lr: 0.000100
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 308 is less than current step: 12166. Dropping entry: {'Training CER/epoch': 0.7305519742926476, '_timestamp': 1702155473.1697536}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 308 is less than current step: 12166. Dropping entry: {'Training loss/epoch': 0.33155228202412657, '_timestamp': 1702155473.1701422}).
+[INFO] step:   50/  77, loss: 1.040718, cer: 0.73, elapsed: 1.26s 1.10m 2.95h, lr: 0.000100
+[INFO] Epoch 15 (Validation) Loss 0.9612  CER 0.7305
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 77 is less than current step: 12320. Dropping entry: {'Validation CER/epoch': 0.7304950264072853, '_timestamp': 1702155572.962682}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 77 is less than current step: 12320. Dropping entry: {'Validation loss/epoch': 0.9611961206832489, '_timestamp': 1702155572.9630234}).
+Model saved
+[INFO] epoch 15 is done
+[INFO] Epoch 16 start
+[INFO] train Start
+[INFO] step:    0/ 308, loss: 0.291661, cer: 0.73, elapsed: 1.78s 0.08m 2.96h, lr: 0.000100
+[INFO] step:   50/ 308, loss: 0.269391, cer: 0.73, elapsed: 1.67s 1.58m 2.99h, lr: 0.000100
+[INFO] step:  100/ 308, loss: 0.277175, cer: 0.73, elapsed: 1.68s 3.06m 3.01h, lr: 0.000100
+[INFO] step:  150/ 308, loss: 0.277814, cer: 0.73, elapsed: 1.84s 4.56m 3.04h, lr: 0.000100
+[INFO] step:  200/ 308, loss: 0.326703, cer: 0.73, elapsed: 1.74s 6.07m 3.06h, lr: 0.000100
+[INFO] step:  250/ 308, loss: 0.272062, cer: 0.73, elapsed: 1.74s 7.56m 3.09h, lr: 0.000100
+[INFO] step:  300/ 308, loss: 0.361113, cer: 0.73, elapsed: 1.76s 9.04m 3.11h, lr: 0.000100
+[INFO] Epoch 16 (Training) Loss 0.3025 CER 0.7261
+[INFO] valid Start
+[INFO] step:    0/  77, loss: 1.096182, cer: 0.73, elapsed: 1.15s 0.07m 3.12h, lr: 0.000100
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 308 is less than current step: 12936. Dropping entry: {'Training CER/epoch': 0.7261015212139061, '_timestamp': 1702156132.911556}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 308 is less than current step: 12936. Dropping entry: {'Training loss/epoch': 0.3024802116991638, '_timestamp': 1702156132.9118953}).
+[INFO] step:   50/  77, loss: 0.868898, cer: 0.73, elapsed: 1.25s 1.11m 3.13h, lr: 0.000100
+[INFO] Epoch 16 (Validation) Loss 0.9549  CER 0.7257
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 77 is less than current step: 13090. Dropping entry: {'Validation CER/epoch': 0.7257471756050765, '_timestamp': 1702156233.2226942}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 77 is less than current step: 13090. Dropping entry: {'Validation loss/epoch': 0.9548902256148202, '_timestamp': 1702156233.2230747}).
+Model saved
+[INFO] epoch 16 is done
+[INFO] Epoch 17 start
+[INFO] train Start
+[INFO] step:    0/ 308, loss: 0.323522, cer: 0.73, elapsed: 1.71s 0.08m 3.15h, lr: 0.000100
+[INFO] step:   50/ 308, loss: 0.237011, cer: 0.73, elapsed: 1.85s 1.59m 3.17h, lr: 0.000100
+[INFO] step:  100/ 308, loss: 0.302350, cer: 0.72, elapsed: 1.87s 3.08m 3.20h, lr: 0.000100
+[INFO] step:  150/ 308, loss: 0.292351, cer: 0.72, elapsed: 1.87s 4.59m 3.22h, lr: 0.000100
+[INFO] step:  200/ 308, loss: 0.262271, cer: 0.72, elapsed: 1.92s 6.09m 3.25h, lr: 0.000100
+[INFO] step:  250/ 308, loss: 0.280996, cer: 0.72, elapsed: 1.78s 7.60m 3.27h, lr: 0.000100
+[INFO] step:  300/ 308, loss: 0.240018, cer: 0.72, elapsed: 1.74s 9.10m 3.30h, lr: 0.000100
+[INFO] Epoch 17 (Training) Loss 0.2876 CER 0.7220
+[INFO] valid Start
+[INFO] step:    0/  77, loss: 0.949949, cer: 0.72, elapsed: 1.17s 0.08m 3.30h, lr: 0.000100
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 308 is less than current step: 13706. Dropping entry: {'Training CER/epoch': 0.7220507418385779, '_timestamp': 1702156797.0283773}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 308 is less than current step: 13706. Dropping entry: {'Training loss/epoch': 0.28758099544551463, '_timestamp': 1702156797.02878}).
+[INFO] step:   50/  77, loss: 1.058485, cer: 0.72, elapsed: 1.21s 1.12m 3.32h, lr: 0.000100
+[INFO] Epoch 17 (Validation) Loss 0.9750  CER 0.7229
+Model saved
+[INFO] epoch 17 is done
+[INFO] Epoch 18 start
+[INFO] train Start
+[INFO] step:    0/ 308, loss: 0.322809, cer: 0.72, elapsed: 1.93s 0.09m 3.33h, lr: 0.000100
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 77 is less than current step: 13860. Dropping entry: {'Validation CER/epoch': 0.7228713931080673, '_timestamp': 1702156897.9223397}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 77 is less than current step: 13860. Dropping entry: {'Validation loss/epoch': 0.9749575179892701, '_timestamp': 1702156897.92277}).
+[INFO] step:   50/ 308, loss: 0.238059, cer: 0.72, elapsed: 1.68s 1.60m 3.36h, lr: 0.000100
+[INFO] step:  100/ 308, loss: 0.250902, cer: 0.72, elapsed: 1.69s 3.12m 3.38h, lr: 0.000100
+[INFO] step:  150/ 308, loss: 0.300852, cer: 0.72, elapsed: 1.73s 4.61m 3.41h, lr: 0.000100
+[INFO] step:  200/ 308, loss: 0.213082, cer: 0.72, elapsed: 1.81s 6.08m 3.43h, lr: 0.000100
+[INFO] step:  250/ 308, loss: 0.270931, cer: 0.72, elapsed: 1.77s 7.58m 3.46h, lr: 0.000100
+[INFO] step:  300/ 308, loss: 0.266089, cer: 0.72, elapsed: 1.65s 9.07m 3.48h, lr: 0.000100
+[INFO] Epoch 18 (Training) Loss 0.2660 CER 0.7198
+[INFO] valid Start
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 308 is less than current step: 14476. Dropping entry: {'Training CER/epoch': 0.7197990911558656, '_timestamp': 1702157459.8904686}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 308 is less than current step: 14476. Dropping entry: {'Training loss/epoch': 0.2660106999630278, '_timestamp': 1702157459.8909175}).
+[INFO] step:    0/  77, loss: 0.881572, cer: 0.72, elapsed: 1.22s 0.08m 3.49h, lr: 0.000100
+[INFO] step:   50/  77, loss: 1.188406, cer: 0.72, elapsed: 1.33s 1.12m 3.50h, lr: 0.000100
+[INFO] Epoch 18 (Validation) Loss 0.9715  CER 0.7203
+Model saved
+[INFO] epoch 18 is done
+[INFO] Epoch 19 start
+[INFO] train Start
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 77 is less than current step: 14630. Dropping entry: {'Validation CER/epoch': 0.7202762691318759, '_timestamp': 1702157560.7581065}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 77 is less than current step: 14630. Dropping entry: {'Validation loss/epoch': 0.9715078186679196, '_timestamp': 1702157560.758462}).
+[INFO] step:    0/ 308, loss: 0.260673, cer: 0.72, elapsed: 1.70s 0.09m 3.51h, lr: 0.000100
+[INFO] step:   50/ 308, loss: 0.218409, cer: 0.72, elapsed: 1.69s 1.59m 3.54h, lr: 0.000100
+[INFO] step:  100/ 308, loss: 0.272450, cer: 0.72, elapsed: 1.84s 3.09m 3.56h, lr: 0.000100
+[INFO] step:  150/ 308, loss: 0.231732, cer: 0.72, elapsed: 1.81s 4.57m 3.59h, lr: 0.000100
+[INFO] step:  200/ 308, loss: 0.271794, cer: 0.72, elapsed: 1.70s 6.08m 3.61h, lr: 0.000100
+[INFO] step:  250/ 308, loss: 0.265995, cer: 0.72, elapsed: 1.73s 7.57m 3.64h, lr: 0.000100
+[INFO] step:  300/ 308, loss: 0.286104, cer: 0.72, elapsed: 1.85s 9.05m 3.66h, lr: 0.000100
+[INFO] Epoch 19 (Training) Loss 0.2537 CER 0.7177
+[INFO] valid Start
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 308 is less than current step: 15246. Dropping entry: {'Training CER/epoch': 0.7177299153170784, '_timestamp': 1702158121.7308943}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 308 is less than current step: 15246. Dropping entry: {'Training loss/epoch': 0.2536865814359157, '_timestamp': 1702158121.731275}).
+[INFO] step:    0/  77, loss: 0.951377, cer: 0.72, elapsed: 1.24s 0.07m 3.67h, lr: 0.000100
+[INFO] step:   50/  77, loss: 0.957224, cer: 0.72, elapsed: 1.19s 1.11m 3.69h, lr: 0.000100
+[INFO] Epoch 19 (Validation) Loss 0.9598  CER 0.7179
+Model saved
+[INFO] epoch 19 is done
+[INFO] Epoch 20 start
+[INFO] train Start
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 77 is less than current step: 15400. Dropping entry: {'Validation CER/epoch': 0.7179493539126021, '_timestamp': 1702158222.2892087}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 77 is less than current step: 15400. Dropping entry: {'Validation loss/epoch': 0.9598137751802222, '_timestamp': 1702158222.2896285}).
+[INFO] step:    0/ 308, loss: 0.212269, cer: 0.72, elapsed: 1.87s 0.10m 3.70h, lr: 0.000100
+[INFO] step:   50/ 308, loss: 0.331580, cer: 0.72, elapsed: 1.85s 1.59m 3.72h, lr: 0.000100
+[INFO] step:  100/ 308, loss: 0.221458, cer: 0.72, elapsed: 1.74s 3.09m 3.75h, lr: 0.000100
+[INFO] step:  150/ 308, loss: 0.261049, cer: 0.72, elapsed: 1.77s 4.58m 3.77h, lr: 0.000100
+[INFO] step:  200/ 308, loss: 0.204583, cer: 0.72, elapsed: 1.78s 6.07m 3.80h, lr: 0.000100
+[INFO] step:  250/ 308, loss: 0.275254, cer: 0.72, elapsed: 1.70s 7.56m 3.82h, lr: 0.000100
+[INFO] step:  300/ 308, loss: 0.284999, cer: 0.72, elapsed: 1.68s 9.04m 3.85h, lr: 0.000100
+[INFO] Epoch 20 (Training) Loss 0.2385 CER 0.7157
+[INFO] valid Start
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 308 is less than current step: 16016. Dropping entry: {'Training CER/epoch': 0.7156768502934027, '_timestamp': 1702158783.2412975}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 308 is less than current step: 16016. Dropping entry: {'Training loss/epoch': 0.23850643146154168, '_timestamp': 1702158783.2417073}).
+[INFO] step:    0/  77, loss: 0.859911, cer: 0.72, elapsed: 1.21s 0.08m 3.85h, lr: 0.000100
+[INFO] step:   50/  77, loss: 0.877286, cer: 0.72, elapsed: 1.22s 1.11m 3.87h, lr: 0.000100
+[INFO] Epoch 20 (Validation) Loss 0.9598  CER 0.7162
+Model saved
+[INFO] epoch 20 is done
+[INFO] Epoch 21 start
+[INFO] train Start
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 77 is less than current step: 16170. Dropping entry: {'Validation CER/epoch': 0.716160177346063, '_timestamp': 1702158883.5315561}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 77 is less than current step: 16170. Dropping entry: {'Validation loss/epoch': 0.9598002929192084, '_timestamp': 1702158883.5319912}).
+[INFO] step:    0/ 308, loss: 0.248022, cer: 0.72, elapsed: 1.90s 0.09m 3.88h, lr: 0.000100
+[INFO] step:   50/ 308, loss: 0.218080, cer: 0.72, elapsed: 1.91s 1.58m 3.91h, lr: 0.000100
+[INFO] step:  100/ 308, loss: 0.209071, cer: 0.72, elapsed: 1.65s 3.05m 3.93h, lr: 0.000100
+[INFO] step:  150/ 308, loss: 0.209816, cer: 0.72, elapsed: 1.81s 4.52m 3.96h, lr: 0.000100
+[INFO] step:  200/ 308, loss: 0.228717, cer: 0.71, elapsed: 1.95s 6.01m 3.98h, lr: 0.000100
+[INFO] step:  250/ 308, loss: 0.219575, cer: 0.71, elapsed: 1.79s 7.50m 4.01h, lr: 0.000100
+[INFO] step:  300/ 308, loss: 0.197398, cer: 0.71, elapsed: 1.86s 8.99m 4.03h, lr: 0.000100
+[INFO] Epoch 21 (Training) Loss 0.2220 CER 0.7142
+[INFO] valid Start
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 308 is less than current step: 16786. Dropping entry: {'Training CER/epoch': 0.7141570983169004, '_timestamp': 1702159441.2149992}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 308 is less than current step: 16786. Dropping entry: {'Training loss/epoch': 0.22203649285358268, '_timestamp': 1702159441.2153623}).
+[INFO] step:    0/  77, loss: 0.860732, cer: 0.71, elapsed: 1.18s 0.07m 4.04h, lr: 0.000100
+[INFO] step:   50/  77, loss: 0.911726, cer: 0.71, elapsed: 1.16s 1.10m 4.05h, lr: 0.000100
+[INFO] Epoch 21 (Validation) Loss 0.9545  CER 0.7148
+Model saved
+[INFO] epoch 21 is done
+[INFO] Epoch 22 start
+[INFO] train Start
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 77 is less than current step: 16940. Dropping entry: {'Validation CER/epoch': 0.7147514180481515, '_timestamp': 1702159540.5149114}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 77 is less than current step: 16940. Dropping entry: {'Validation loss/epoch': 0.9544964502384137, '_timestamp': 1702159540.5152378}).
+[INFO] step:    0/ 308, loss: 0.194125, cer: 0.71, elapsed: 1.74s 0.08m 4.06h, lr: 0.000100
+[INFO] step:   50/ 308, loss: 0.247564, cer: 0.71, elapsed: 1.88s 1.56m 4.09h, lr: 0.000100
+[INFO] step:  100/ 308, loss: 0.217667, cer: 0.71, elapsed: 1.65s 3.04m 4.11h, lr: 0.000100
+[INFO] step:  150/ 308, loss: 0.268087, cer: 0.71, elapsed: 1.93s 4.55m 4.14h, lr: 0.000100
+[INFO] step:  200/ 308, loss: 0.220461, cer: 0.71, elapsed: 1.78s 6.06m 4.16h, lr: 0.000100
+[INFO] step:  250/ 308, loss: 0.251252, cer: 0.71, elapsed: 1.85s 7.53m 4.19h, lr: 0.000100
+[INFO] step:  300/ 308, loss: 0.191283, cer: 0.71, elapsed: 1.66s 9.00m 4.21h, lr: 0.000100
+[INFO] Epoch 22 (Training) Loss 0.2159 CER 0.7132
+[INFO] valid Start
+[INFO] step:    0/  77, loss: 0.923316, cer: 0.71, elapsed: 1.24s 0.08m 4.22h, lr: 0.000100
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 308 is less than current step: 17556. Dropping entry: {'Training CER/epoch': 0.7131649928611598, '_timestamp': 1702160098.253792}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 308 is less than current step: 17556. Dropping entry: {'Training loss/epoch': 0.21589902812590847, '_timestamp': 1702160098.2541409}).
+[INFO] step:   50/  77, loss: 0.851704, cer: 0.71, elapsed: 1.18s 1.11m 4.24h, lr: 0.000100
+[INFO] Epoch 22 (Validation) Loss 0.9745  CER 0.7135
+Model saved
+[INFO] epoch 22 is done
+[INFO] Epoch 23 start
+[INFO] train Start
+[INFO] step:    0/ 308, loss: 0.193814, cer: 0.71, elapsed: 1.77s 0.08m 4.25h, lr: 0.000100
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 77 is less than current step: 17710. Dropping entry: {'Validation CER/epoch': 0.7135443601091732, '_timestamp': 1702160198.7742193}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 77 is less than current step: 17710. Dropping entry: {'Validation loss/epoch': 0.9745487756543345, '_timestamp': 1702160198.7745845}).
+[INFO] step:   50/ 308, loss: 0.136257, cer: 0.71, elapsed: 1.77s 1.59m 4.27h, lr: 0.000100
+[INFO] step:  100/ 308, loss: 0.207466, cer: 0.71, elapsed: 1.72s 3.08m 4.30h, lr: 0.000100
+[INFO] step:  150/ 308, loss: 0.230250, cer: 0.71, elapsed: 1.75s 4.56m 4.32h, lr: 0.000100
+[INFO] step:  200/ 308, loss: 0.224468, cer: 0.71, elapsed: 1.67s 6.06m 4.35h, lr: 0.000100
+[INFO] step:  250/ 308, loss: 0.203039, cer: 0.71, elapsed: 1.70s 7.55m 4.37h, lr: 0.000100
+[INFO] step:  300/ 308, loss: 0.214502, cer: 0.71, elapsed: 1.84s 9.03m 4.40h, lr: 0.000100
+[INFO] Epoch 23 (Training) Loss 0.2085 CER 0.7121
+[INFO] valid Start
+[INFO] step:    0/  77, loss: 1.051597, cer: 0.71, elapsed: 1.21s 0.08m 4.40h, lr: 0.000100
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 308 is less than current step: 18326. Dropping entry: {'Training CER/epoch': 0.7121413767325208, '_timestamp': 1702160758.1442876}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 308 is less than current step: 18326. Dropping entry: {'Training loss/epoch': 0.20852014528853552, '_timestamp': 1702160758.1447399}).
+[INFO] step:   50/  77, loss: 1.064038, cer: 0.71, elapsed: 1.22s 1.12m 4.42h, lr: 0.000100
+[INFO] Epoch 23 (Validation) Loss 0.9516  CER 0.7124
+Model saved
+[INFO] epoch 23 is done
+[INFO] Epoch 24 start
+[INFO] train Start
+[INFO] step:    0/ 308, loss: 0.190583, cer: 0.71, elapsed: 1.69s 0.08m 4.43h, lr: 0.000100
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 77 is less than current step: 18480. Dropping entry: {'Validation CER/epoch': 0.7124072396516774, '_timestamp': 1702160859.5215902}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 77 is less than current step: 18480. Dropping entry: {'Validation loss/epoch': 0.9516157136335002, '_timestamp': 1702160859.5220618}).
+[INFO] step:   50/ 308, loss: 0.208345, cer: 0.71, elapsed: 1.95s 1.59m 4.46h, lr: 0.000100
+[INFO] step:  100/ 308, loss: 0.182848, cer: 0.71, elapsed: 1.84s 3.07m 4.48h, lr: 0.000100
+[INFO] step:  150/ 308, loss: 0.170866, cer: 0.71, elapsed: 2.03s 4.58m 4.51h, lr: 0.000100
+[INFO] step:  200/ 308, loss: 0.211188, cer: 0.71, elapsed: 1.89s 6.08m 4.53h, lr: 0.000100
+[INFO] step:  250/ 308, loss: 0.196199, cer: 0.71, elapsed: 1.85s 7.57m 4.56h, lr: 0.000100
+[INFO] step:  300/ 308, loss: 0.199220, cer: 0.71, elapsed: 1.69s 9.05m 4.58h, lr: 0.000100
+[INFO] Epoch 24 (Training) Loss 0.2011 CER 0.7112
+[INFO] valid Start
+[INFO] step:    0/  77, loss: 0.956900, cer: 0.71, elapsed: 1.16s 0.07m 4.59h, lr: 0.000100
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 308 is less than current step: 19096. Dropping entry: {'Training CER/epoch': 0.7112363898697748, '_timestamp': 1702161420.3196456}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 308 is less than current step: 19096. Dropping entry: {'Training loss/epoch': 0.20113995110059713, '_timestamp': 1702161420.3199987}).
+[INFO] step:   50/  77, loss: 0.860746, cer: 0.71, elapsed: 1.25s 1.11m 4.60h, lr: 0.000100
+[INFO] Epoch 24 (Validation) Loss 0.9620  CER 0.7115
+Model saved
+[INFO] epoch 24 is done
+[INFO] Epoch 25 start
+[INFO] train Start
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 77 is less than current step: 19250. Dropping entry: {'Validation CER/epoch': 0.711545631854951, '_timestamp': 1702161520.0834641}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 77 is less than current step: 19250. Dropping entry: {'Validation loss/epoch': 0.9620375029452435, '_timestamp': 1702161520.0837998}).
+[INFO] step:    0/ 308, loss: 0.212370, cer: 0.71, elapsed: 1.77s 0.11m 4.62h, lr: 0.000100
+[INFO] step:   50/ 308, loss: 0.170106, cer: 0.71, elapsed: 1.88s 1.61m 4.64h, lr: 0.000100
+[INFO] step:  100/ 308, loss: 0.168606, cer: 0.71, elapsed: 1.73s 3.09m 4.66h, lr: 0.000100
+[INFO] step:  150/ 308, loss: 0.199833, cer: 0.71, elapsed: 1.73s 4.57m 4.69h, lr: 0.000100
+[INFO] step:  200/ 308, loss: 0.248908, cer: 0.71, elapsed: 1.83s 6.03m 4.71h, lr: 0.000100
+[INFO] step:  250/ 308, loss: 0.180574, cer: 0.71, elapsed: 1.94s 7.54m 4.74h, lr: 0.000100
+[INFO] step:  300/ 308, loss: 0.206538, cer: 0.71, elapsed: 1.79s 9.04m 4.76h, lr: 0.000100
+[INFO] Epoch 25 (Training) Loss 0.1911 CER 0.7104
+[INFO] valid Start
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 308 is less than current step: 19866. Dropping entry: {'Training CER/epoch': 0.7104427594735958, '_timestamp': 1702162081.6710052}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 308 is less than current step: 19866. Dropping entry: {'Training loss/epoch': 0.19112011028284376, '_timestamp': 1702162081.6713622}).
+[INFO] step:    0/  77, loss: 0.995571, cer: 0.71, elapsed: 1.26s 0.08m 4.77h, lr: 0.000100
+[INFO] step:   50/  77, loss: 1.021106, cer: 0.71, elapsed: 1.20s 1.11m 4.79h, lr: 0.000100
+[INFO] Epoch 25 (Validation) Loss 0.9770  CER 0.7111
+Model saved
+[INFO] epoch 25 is done
+[INFO] Epoch 26 start
+[INFO] train Start
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 77 is less than current step: 20020. Dropping entry: {'Validation CER/epoch': 0.7110883857688551, '_timestamp': 1702162182.0475733}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 77 is less than current step: 20020. Dropping entry: {'Validation loss/epoch': 0.9769622954455289, '_timestamp': 1702162182.0478952}).
+[INFO] step:    0/ 308, loss: 0.149370, cer: 0.71, elapsed: 1.90s 0.08m 4.80h, lr: 0.000100
+[INFO] step:   50/ 308, loss: 0.169002, cer: 0.71, elapsed: 1.74s 1.57m 4.82h, lr: 0.000100
+[INFO] step:  100/ 308, loss: 0.211435, cer: 0.71, elapsed: 1.89s 3.08m 4.85h, lr: 0.000100
+[INFO] step:  150/ 308, loss: 0.189593, cer: 0.71, elapsed: 1.72s 4.56m 4.87h, lr: 0.000100
+[INFO] step:  200/ 308, loss: 0.166702, cer: 0.71, elapsed: 1.78s 6.05m 4.90h, lr: 0.000100
+[INFO] step:  250/ 308, loss: 0.153089, cer: 0.71, elapsed: 1.72s 7.53m 4.92h, lr: 0.000100
+[INFO] step:  300/ 308, loss: 0.224900, cer: 0.71, elapsed: 1.78s 9.00m 4.95h, lr: 0.000100
+[INFO] Epoch 26 (Training) Loss 0.1844 CER 0.7099
+[INFO] valid Start
+[INFO] step:    0/  77, loss: 0.933593, cer: 0.71, elapsed: 1.25s 0.08m 4.95h, lr: 0.000100
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 308 is less than current step: 20636. Dropping entry: {'Training CER/epoch': 0.7099275987521463, '_timestamp': 1702162739.307188}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 308 is less than current step: 20636. Dropping entry: {'Training loss/epoch': 0.1844444480760918, '_timestamp': 1702162739.3075547}).
+[INFO] step:   50/  77, loss: 1.027490, cer: 0.71, elapsed: 1.17s 1.11m 4.97h, lr: 0.000100
+[INFO] Epoch 26 (Validation) Loss 0.9828  CER 0.7101
+Model saved
+[INFO] epoch 26 is done
+[INFO] Epoch 27 start
+[INFO] train Start
+[INFO] step:    0/ 308, loss: 0.189968, cer: 0.71, elapsed: 2.01s 0.09m 4.98h, lr: 0.000100
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 77 is less than current step: 20790. Dropping entry: {'Validation CER/epoch': 0.7100742351471985, '_timestamp': 1702162839.1047337}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 77 is less than current step: 20790. Dropping entry: {'Validation loss/epoch': 0.9827648850230427, '_timestamp': 1702162839.1050658}).
+[INFO] step:   50/ 308, loss: 0.165118, cer: 0.71, elapsed: 1.79s 1.58m 5.01h, lr: 0.000100
+[INFO] step:  100/ 308, loss: 0.165017, cer: 0.71, elapsed: 1.74s 3.06m 5.03h, lr: 0.000100
+[INFO] step:  150/ 308, loss: 0.172530, cer: 0.71, elapsed: 1.87s 4.54m 5.06h, lr: 0.000100
+[INFO] step:  200/ 308, loss: 0.198957, cer: 0.71, elapsed: 1.80s 6.02m 5.08h, lr: 0.000100
+[INFO] step:  250/ 308, loss: 0.207971, cer: 0.71, elapsed: 1.78s 7.52m 5.10h, lr: 0.000100
+[INFO] step:  300/ 308, loss: 0.195563, cer: 0.71, elapsed: 1.71s 9.01m 5.13h, lr: 0.000100
+[INFO] Epoch 27 (Training) Loss 0.1786 CER 0.7092
+[INFO] valid Start
+[INFO] step:    0/  77, loss: 1.070188, cer: 0.71, elapsed: 1.21s 0.08m 5.13h, lr: 0.000100
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 308 is less than current step: 21406. Dropping entry: {'Training CER/epoch': 0.7092370158908463, '_timestamp': 1702163397.526915}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 308 is less than current step: 21406. Dropping entry: {'Training loss/epoch': 0.1785709033054965, '_timestamp': 1702163397.5272381}).
+[INFO] step:   50/  77, loss: 1.038400, cer: 0.71, elapsed: 1.26s 1.10m 5.15h, lr: 0.000100
+[INFO] Epoch 27 (Validation) Loss 0.9741  CER 0.7095
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 77 is less than current step: 21560. Dropping entry: {'Validation CER/epoch': 0.7094606231139553, '_timestamp': 1702163497.0815232}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 77 is less than current step: 21560. Dropping entry: {'Validation loss/epoch': 0.9740982930381576, '_timestamp': 1702163497.0818734}).
+Model saved
+[INFO] epoch 27 is done
+[INFO] Epoch 28 start
+[INFO] train Start
+[INFO] step:    0/ 308, loss: 0.175585, cer: 0.71, elapsed: 1.81s 0.08m 5.16h, lr: 0.000100
+[INFO] step:   50/ 308, loss: 0.148897, cer: 0.71, elapsed: 2.03s 1.58m 5.19h, lr: 0.000100
+[INFO] step:  100/ 308, loss: 0.168903, cer: 0.71, elapsed: 1.79s 3.07m 5.21h, lr: 0.000100
+[INFO] step:  150/ 308, loss: 0.177321, cer: 0.71, elapsed: 1.99s 4.57m 5.24h, lr: 0.000100
+[INFO] step:  200/ 308, loss: 0.136742, cer: 0.71, elapsed: 1.74s 6.06m 5.26h, lr: 0.000100
+[INFO] step:  250/ 308, loss: 0.176452, cer: 0.71, elapsed: 1.71s 7.54m 5.29h, lr: 0.000100
+[INFO] step:  300/ 308, loss: 0.135732, cer: 0.71, elapsed: 1.82s 9.02m 5.31h, lr: 0.000100
+[INFO] Epoch 28 (Training) Loss 0.1722 CER 0.7088
+[INFO] valid Start
+[INFO] step:    0/  77, loss: 1.009812, cer: 0.71, elapsed: 1.27s 0.08m 5.32h, lr: 0.000100
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 308 is less than current step: 22176. Dropping entry: {'Training CER/epoch': 0.7087509426935431, '_timestamp': 1702164056.0481334}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 308 is less than current step: 22176. Dropping entry: {'Training loss/epoch': 0.1721927315335382, '_timestamp': 1702164056.048537}).
+[INFO] step:   50/  77, loss: 0.998251, cer: 0.71, elapsed: 1.24s 1.11m 5.33h, lr: 0.000100
+[INFO] Epoch 28 (Validation) Loss 0.9787  CER 0.7094
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 77 is less than current step: 22330. Dropping entry: {'Validation CER/epoch': 0.70939140928901, '_timestamp': 1702164156.4364393}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 77 is less than current step: 22330. Dropping entry: {'Validation loss/epoch': 0.9786700784385979, '_timestamp': 1702164156.4367988}).
+Model saved
+[INFO] epoch 28 is done
+[INFO] Epoch 29 start
+[INFO] train Start
+[INFO] step:    0/ 308, loss: 0.133296, cer: 0.71, elapsed: 1.78s 0.08m 5.35h, lr: 0.000100
+[INFO] step:   50/ 308, loss: 0.210758, cer: 0.71, elapsed: 1.69s 1.59m 5.37h, lr: 0.000100
+[INFO] step:  100/ 308, loss: 0.170564, cer: 0.71, elapsed: 1.79s 3.08m 5.40h, lr: 0.000100
+[INFO] step:  150/ 308, loss: 0.233845, cer: 0.71, elapsed: 1.79s 4.56m 5.42h, lr: 0.000100
+[INFO] step:  200/ 308, loss: 0.191492, cer: 0.71, elapsed: 1.99s 6.05m 5.45h, lr: 0.000100
+[INFO] step:  250/ 308, loss: 0.199304, cer: 0.71, elapsed: 1.71s 7.55m 5.47h, lr: 0.000100
+[INFO] step:  300/ 308, loss: 0.143554, cer: 0.71, elapsed: 1.65s 9.04m 5.50h, lr: 0.000100
+[INFO] Epoch 29 (Training) Loss 0.1659 CER 0.7087
+[INFO] valid Start
+[INFO] step:    0/  77, loss: 0.957369, cer: 0.71, elapsed: 1.19s 0.08m 5.50h, lr: 0.000100
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 308 is less than current step: 22946. Dropping entry: {'Training CER/epoch': 0.7087237388589865, '_timestamp': 1702164716.6596897}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 308 is less than current step: 22946. Dropping entry: {'Training loss/epoch': 0.16586278279783664, '_timestamp': 1702164716.660117}).
+[INFO] step:   50/  77, loss: 1.062241, cer: 0.71, elapsed: 1.27s 1.12m 5.52h, lr: 0.000100
+[INFO] Epoch 29 (Validation) Loss 0.9732  CER 0.7093
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 77 is less than current step: 23100. Dropping entry: {'Validation CER/epoch': 0.7092571109891662, '_timestamp': 1702164817.063715}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 77 is less than current step: 23100. Dropping entry: {'Validation loss/epoch': 0.9732054913198793, '_timestamp': 1702164817.0640848}).
+Model saved
+[INFO] epoch 29 is done
+[INFO] Epoch 30 start
+[INFO] train Start
+[INFO] step:    0/ 308, loss: 0.174877, cer: 0.71, elapsed: 1.59s 0.08m 5.53h, lr: 0.000100
+[INFO] step:   50/ 308, loss: 0.216068, cer: 0.71, elapsed: 1.94s 1.56m 5.55h, lr: 0.000100
+[INFO] step:  100/ 308, loss: 0.157187, cer: 0.71, elapsed: 1.76s 3.05m 5.58h, lr: 0.000100
+[INFO] step:  150/ 308, loss: 0.168362, cer: 0.71, elapsed: 1.81s 4.54m 5.60h, lr: 0.000100
+[INFO] step:  200/ 308, loss: 0.206378, cer: 0.71, elapsed: 1.87s 6.04m 5.63h, lr: 0.000100
+[INFO] step:  250/ 308, loss: 0.149546, cer: 0.71, elapsed: 1.93s 7.54m 5.65h, lr: 0.000100
+[INFO] step:  300/ 308, loss: 0.156841, cer: 0.71, elapsed: 1.76s 9.03m 5.68h, lr: 0.000100
+[INFO] Epoch 30 (Training) Loss 0.1577 CER 0.7086
+[INFO] valid Start
+[INFO] step:    0/  77, loss: 1.146890, cer: 0.71, elapsed: 1.29s 0.08m 5.68h, lr: 0.000100
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 308 is less than current step: 23716. Dropping entry: {'Training CER/epoch': 0.7086181103095693, '_timestamp': 1702165375.9033308}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 308 is less than current step: 23716. Dropping entry: {'Training loss/epoch': 0.15770514948027475, '_timestamp': 1702165375.9037027}).
+[INFO] step:   50/  77, loss: 0.911045, cer: 0.71, elapsed: 1.21s 1.10m 5.70h, lr: 0.000100
+[INFO] Epoch 30 (Validation) Loss 0.9690  CER 0.7089
+Model saved
+[INFO] epoch 30 is done
+[INFO] Epoch 31 start
+[INFO] train Start
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 77 is less than current step: 23870. Dropping entry: {'Validation CER/epoch': 0.7089365290196015, '_timestamp': 1702165475.574152}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 77 is less than current step: 23870. Dropping entry: {'Validation loss/epoch': 0.9689705062222171, '_timestamp': 1702165475.5745242}).
+[INFO] step:    0/ 308, loss: 0.123538, cer: 0.71, elapsed: 1.68s 0.08m 5.71h, lr: 0.000100
+[INFO] step:   50/ 308, loss: 0.128252, cer: 0.71, elapsed: 1.88s 1.57m 5.74h, lr: 0.000100
+[INFO] step:  100/ 308, loss: 0.174093, cer: 0.71, elapsed: 1.56s 3.09m 5.76h, lr: 0.000100
+[INFO] step:  150/ 308, loss: 0.163430, cer: 0.71, elapsed: 1.80s 4.58m 5.79h, lr: 0.000100
+[INFO] step:  200/ 308, loss: 0.195170, cer: 0.71, elapsed: 1.79s 6.06m 5.81h, lr: 0.000100
+[INFO] step:  250/ 308, loss: 0.157113, cer: 0.71, elapsed: 1.77s 7.55m 5.84h, lr: 0.000100
+[INFO] step:  300/ 308, loss: 0.127624, cer: 0.71, elapsed: 1.80s 9.06m 5.86h, lr: 0.000100
+[INFO] Epoch 31 (Training) Loss 0.1554 CER 0.7084
+[INFO] valid Start
+[INFO] step:    0/  77, loss: 0.833232, cer: 0.71, elapsed: 1.13s 0.07m 5.87h, lr: 0.000100
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 308 is less than current step: 24486. Dropping entry: {'Training CER/epoch': 0.7084101674795368, '_timestamp': 1702166036.7777712}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 308 is less than current step: 24486. Dropping entry: {'Training loss/epoch': 0.15540664884951208, '_timestamp': 1702166036.778118}).
+[INFO] step:   50/  77, loss: 0.965350, cer: 0.71, elapsed: 1.21s 1.11m 5.88h, lr: 0.000100
+[INFO] Epoch 31 (Validation) Loss 0.9817  CER 0.7087
+Model saved
+[INFO] epoch 31 is done
+[INFO] Epoch 32 start
+[INFO] train Start
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 77 is less than current step: 24640. Dropping entry: {'Validation CER/epoch': 0.7087018258909218, '_timestamp': 1702166136.647454}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 77 is less than current step: 24640. Dropping entry: {'Validation loss/epoch': 0.981650888145744, '_timestamp': 1702166136.6478345}).
+[INFO] step:    0/ 308, loss: 0.135596, cer: 0.71, elapsed: 1.95s 0.09m 5.90h, lr: 0.000100
+[INFO] step:   50/ 308, loss: 0.175454, cer: 0.71, elapsed: 1.59s 1.56m 5.92h, lr: 0.000100
+[INFO] step:  100/ 308, loss: 0.121978, cer: 0.71, elapsed: 2.01s 3.05m 5.95h, lr: 0.000100
+[INFO] step:  150/ 308, loss: 0.128451, cer: 0.71, elapsed: 1.98s 4.54m 5.97h, lr: 0.000100
+[INFO] step:  200/ 308, loss: 0.168548, cer: 0.71, elapsed: 1.68s 6.02m 6.00h, lr: 0.000100
+[INFO] step:  250/ 308, loss: 0.143026, cer: 0.71, elapsed: 1.80s 7.51m 6.02h, lr: 0.000100
+[INFO] step:  300/ 308, loss: 0.162156, cer: 0.71, elapsed: 1.94s 9.02m 6.05h, lr: 0.000100
+[INFO] Epoch 32 (Training) Loss 0.1486 CER 0.7083
+[INFO] valid Start
+[INFO] step:    0/  77, loss: 0.872714, cer: 0.71, elapsed: 1.18s 0.07m 6.05h, lr: 0.000100
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 308 is less than current step: 25256. Dropping entry: {'Training CER/epoch': 0.7082587957910529, '_timestamp': 1702166700.3014178}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 308 is less than current step: 25256. Dropping entry: {'Training loss/epoch': 0.1485847391478427, '_timestamp': 1702166700.30194}).
+[INFO] step:   50/  77, loss: 0.897658, cer: 0.71, elapsed: 1.15s 1.10m 6.07h, lr: 0.000100
+[INFO] Epoch 32 (Validation) Loss 0.9834  CER 0.7086
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 77 is less than current step: 25410. Dropping entry: {'Validation CER/epoch': 0.7085582321171164, '_timestamp': 1702166800.0326738}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 77 is less than current step: 25410. Dropping entry: {'Validation loss/epoch': 0.9834257797761397, '_timestamp': 1702166800.0332763}).
+Model saved
+[INFO] epoch 32 is done
+[INFO] Epoch 33 start
+[INFO] train Start
+[INFO] step:    0/ 308, loss: 0.151134, cer: 0.71, elapsed: 1.81s 0.09m 6.08h, lr: 0.000100
+[INFO] step:   50/ 308, loss: 0.154558, cer: 0.71, elapsed: 1.81s 1.59m 6.11h, lr: 0.000100
+[INFO] step:  100/ 308, loss: 0.161905, cer: 0.71, elapsed: 1.68s 3.08m 6.13h, lr: 0.000100
+[INFO] step:  150/ 308, loss: 0.132147, cer: 0.71, elapsed: 1.78s 4.56m 6.16h, lr: 0.000100
+[INFO] step:  200/ 308, loss: 0.125364, cer: 0.71, elapsed: 1.85s 6.05m 6.18h, lr: 0.000100
+[INFO] step:  250/ 308, loss: 0.148710, cer: 0.71, elapsed: 1.73s 7.52m 6.20h, lr: 0.000100
+[INFO] step:  300/ 308, loss: 0.139642, cer: 0.71, elapsed: 1.72s 9.02m 6.23h, lr: 0.000100
+[INFO] Epoch 33 (Training) Loss 0.1434 CER 0.7081
+[INFO] valid Start
+[INFO] step:    0/  77, loss: 1.026240, cer: 0.71, elapsed: 1.20s 0.07m 6.24h, lr: 0.000100
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 308 is less than current step: 26026. Dropping entry: {'Training CER/epoch': 0.7080688313918873, '_timestamp': 1702167359.6902084}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 308 is less than current step: 26026. Dropping entry: {'Training loss/epoch': 0.14335081491667728, '_timestamp': 1702167359.6905324}).
+[INFO] step:   50/  77, loss: 0.771117, cer: 0.71, elapsed: 1.17s 1.09m 6.25h, lr: 0.000100
+[INFO] Epoch 33 (Validation) Loss 0.9838  CER 0.7083
+Model saved
+[INFO] epoch 33 is done
+[INFO] Epoch 34 start
+[INFO] train Start
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 77 is less than current step: 26180. Dropping entry: {'Validation CER/epoch': 0.7083241429133247, '_timestamp': 1702167458.9981205}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 77 is less than current step: 26180. Dropping entry: {'Validation loss/epoch': 0.9838244814377326, '_timestamp': 1702167458.9985635}).
+[INFO] step:    0/ 308, loss: 0.129702, cer: 0.71, elapsed: 1.73s 0.08m 6.26h, lr: 0.000100
+[INFO] step:   50/ 308, loss: 0.120523, cer: 0.71, elapsed: 1.86s 1.57m 6.29h, lr: 0.000100
+[INFO] step:  100/ 308, loss: 0.167735, cer: 0.71, elapsed: 1.77s 3.08m 6.31h, lr: 0.000100
+[INFO] step:  150/ 308, loss: 0.137189, cer: 0.71, elapsed: 1.57s 4.56m 6.34h, lr: 0.000100
+[INFO] step:  200/ 308, loss: 0.139497, cer: 0.71, elapsed: 1.91s 6.05m 6.36h, lr: 0.000100
+[INFO] step:  250/ 308, loss: 0.159691, cer: 0.71, elapsed: 1.73s 7.54m 6.39h, lr: 0.000100
+[INFO] step:  300/ 308, loss: 0.142156, cer: 0.71, elapsed: 1.75s 9.04m 6.41h, lr: 0.000100
+[INFO] Epoch 34 (Training) Loss 0.1455 CER 0.7078
+[INFO] valid Start
+[INFO] step:    0/  77, loss: 1.090417, cer: 0.71, elapsed: 1.32s 0.08m 6.42h, lr: 0.000100
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 308 is less than current step: 26796. Dropping entry: {'Training CER/epoch': 0.7078005091688103, '_timestamp': 1702168018.7302465}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 308 is less than current step: 26796. Dropping entry: {'Training loss/epoch': 0.14551557578727023, '_timestamp': 1702168018.7306652}).
+[INFO] step:   50/  77, loss: 1.020562, cer: 0.71, elapsed: 1.23s 1.12m 6.44h, lr: 0.000100
+[INFO] Epoch 34 (Validation) Loss 0.9878  CER 0.7080
+Model saved
+[INFO] epoch 34 is done
+[INFO] Epoch 35 start
+[INFO] train Start
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 77 is less than current step: 26950. Dropping entry: {'Validation CER/epoch': 0.7080005475844615, '_timestamp': 1702168119.8058538}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 77 is less than current step: 26950. Dropping entry: {'Validation loss/epoch': 0.9878130973159492, '_timestamp': 1702168119.8062718}).
+[INFO] step:    0/ 308, loss: 0.143707, cer: 0.71, elapsed: 1.92s 0.09m 6.45h, lr: 0.000100
+[INFO] step:   50/ 308, loss: 0.124750, cer: 0.71, elapsed: 1.72s 1.60m 6.47h, lr: 0.000100
+[INFO] step:  100/ 308, loss: 0.140791, cer: 0.71, elapsed: 1.73s 3.12m 6.50h, lr: 0.000100
+[INFO] step:  150/ 308, loss: 0.159271, cer: 0.71, elapsed: 1.72s 4.61m 6.52h, lr: 0.000100
+[INFO] step:  200/ 308, loss: 0.145630, cer: 0.71, elapsed: 1.71s 6.10m 6.55h, lr: 0.000100
+[INFO] step:  250/ 308, loss: 0.206170, cer: 0.71, elapsed: 1.92s 7.58m 6.57h, lr: 0.000100
+[INFO] step:  300/ 308, loss: 0.149577, cer: 0.71, elapsed: 1.96s 9.08m 6.60h, lr: 0.000100
+[INFO] Epoch 35 (Training) Loss 0.1441 CER 0.7076
+[INFO] valid Start
+[INFO] step:    0/  77, loss: 0.883031, cer: 0.71, elapsed: 1.13s 0.07m 6.60h, lr: 0.000100
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 308 is less than current step: 27566. Dropping entry: {'Training CER/epoch': 0.7076201460032024, '_timestamp': 1702168681.592042}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 308 is less than current step: 27566. Dropping entry: {'Training loss/epoch': 0.1440914837861216, '_timestamp': 1702168681.5924573}).
+[INFO] step:   50/  77, loss: 0.981391, cer: 0.71, elapsed: 1.13s 1.11m 6.62h, lr: 0.000100
+[INFO] Epoch 35 (Validation) Loss 0.9836  CER 0.7078
+Model saved
+[INFO] epoch 35 is done
+[INFO] Epoch 36 start
+[INFO] train Start
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 77 is less than current step: 27720. Dropping entry: {'Validation CER/epoch': 0.707786615367789, '_timestamp': 1702168782.0450253}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 77 is less than current step: 27720. Dropping entry: {'Validation loss/epoch': 0.9836102019656788, '_timestamp': 1702168782.0454438}).
+[INFO] step:    0/ 308, loss: 0.121477, cer: 0.71, elapsed: 1.94s 0.09m 6.63h, lr: 0.000100
+[INFO] step:   50/ 308, loss: 0.154011, cer: 0.71, elapsed: 1.76s 1.61m 6.66h, lr: 0.000100
+[INFO] step:  100/ 308, loss: 0.214795, cer: 0.71, elapsed: 1.90s 3.11m 6.68h, lr: 0.000100
+[INFO] step:  150/ 308, loss: 0.097023, cer: 0.71, elapsed: 1.78s 4.61m 6.71h, lr: 0.000100
+[INFO] step:  200/ 308, loss: 0.122247, cer: 0.71, elapsed: 1.66s 6.11m 6.73h, lr: 0.000100
+[INFO] step:  250/ 308, loss: 0.137009, cer: 0.71, elapsed: 1.73s 7.60m 6.76h, lr: 0.000100
+[INFO] step:  300/ 308, loss: 0.150367, cer: 0.71, elapsed: 1.42s 9.10m 6.78h, lr: 0.000100
+[INFO] Epoch 36 (Training) Loss 0.1369 CER 0.7074
+[INFO] valid Start
+[INFO] step:    0/  77, loss: 0.922489, cer: 0.71, elapsed: 1.28s 0.08m 6.79h, lr: 0.000100
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 308 is less than current step: 28336. Dropping entry: {'Training CER/epoch': 0.7074416324515401, '_timestamp': 1702169346.0080473}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 308 is less than current step: 28336. Dropping entry: {'Training loss/epoch': 0.1368677095304449, '_timestamp': 1702169346.0083902}).
+[INFO] step:   50/  77, loss: 1.009392, cer: 0.71, elapsed: 1.16s 1.11m 6.80h, lr: 0.000100
+[INFO] Epoch 36 (Validation) Loss 0.9823  CER 0.7077
+Model saved
+[INFO] epoch 36 is done
+[INFO] Epoch 37 start
+[INFO] train Start
+[INFO] step:    0/ 308, loss: 0.161990, cer: 0.71, elapsed: 1.81s 0.09m 6.82h, lr: 0.000100
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 77 is less than current step: 28490. Dropping entry: {'Validation CER/epoch': 0.7077284850687788, '_timestamp': 1702169446.5000412}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 77 is less than current step: 28490. Dropping entry: {'Validation loss/epoch': 0.9823146624998613, '_timestamp': 1702169446.500468}).
+[INFO] step:   50/ 308, loss: 0.134463, cer: 0.71, elapsed: 1.66s 1.61m 6.84h, lr: 0.000100
+[INFO] step:  100/ 308, loss: 0.114218, cer: 0.71, elapsed: 1.87s 3.10m 6.87h, lr: 0.000100
+[INFO] step:  150/ 308, loss: 0.101205, cer: 0.71, elapsed: 1.75s 4.59m 6.89h, lr: 0.000100
+[INFO] step:  200/ 308, loss: 0.199905, cer: 0.71, elapsed: 1.79s 6.10m 6.92h, lr: 0.000100
+[INFO] step:  250/ 308, loss: 0.152979, cer: 0.71, elapsed: 1.86s 7.60m 6.94h, lr: 0.000100
+[INFO] step:  300/ 308, loss: 0.126983, cer: 0.71, elapsed: 1.98s 9.09m 6.97h, lr: 0.000100
+[INFO] Epoch 37 (Training) Loss 0.1345 CER 0.7072
+[INFO] valid Start
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 308 is less than current step: 29106. Dropping entry: {'Training CER/epoch': 0.7072400394672705, '_timestamp': 1702170009.980809}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 308 is less than current step: 29106. Dropping entry: {'Training loss/epoch': 0.13449181183301784, '_timestamp': 1702170009.9811842}).
+[INFO] step:    0/  77, loss: 1.088138, cer: 0.71, elapsed: 1.32s 0.08m 6.97h, lr: 0.000100
+[INFO] step:   50/  77, loss: 0.873852, cer: 0.71, elapsed: 1.15s 1.13m 6.99h, lr: 0.000100
+[INFO] Epoch 37 (Validation) Loss 0.9807  CER 0.7076
+Model saved
+[INFO] epoch 37 is done
+[INFO] Epoch 38 start
+[INFO] train Start
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 77 is less than current step: 29260. Dropping entry: {'Validation CER/epoch': 0.7075709485151145, '_timestamp': 1702170111.8243213}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 77 is less than current step: 29260. Dropping entry: {'Validation loss/epoch': 0.9807310119851843, '_timestamp': 1702170111.8246937}).
+[INFO] step:    0/ 308, loss: 0.108589, cer: 0.71, elapsed: 2.02s 0.09m 7.00h, lr: 0.000100
+[INFO] step:   50/ 308, loss: 0.128205, cer: 0.71, elapsed: 1.71s 1.57m 7.03h, lr: 0.000100
+[INFO] step:  100/ 308, loss: 0.120206, cer: 0.71, elapsed: 1.80s 3.07m 7.05h, lr: 0.000100
+[INFO] step:  150/ 308, loss: 0.237284, cer: 0.71, elapsed: 2.03s 4.56m 7.08h, lr: 0.000100
+[INFO] step:  200/ 308, loss: 0.146195, cer: 0.71, elapsed: 1.87s 6.06m 7.10h, lr: 0.000100
+[INFO] step:  250/ 308, loss: 0.143311, cer: 0.71, elapsed: 1.93s 7.58m 7.13h, lr: 0.000100
+[INFO] step:  300/ 308, loss: 0.112578, cer: 0.71, elapsed: 1.77s 9.07m 7.15h, lr: 0.000100
+[INFO] Epoch 38 (Training) Loss 0.1340 CER 0.7072
+[INFO] valid Start
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 308 is less than current step: 29876. Dropping entry: {'Training CER/epoch': 0.7072248781310013, '_timestamp': 1702170674.187516}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 308 is less than current step: 29876. Dropping entry: {'Training loss/epoch': 0.13402323898943988, '_timestamp': 1702170674.187877}).
+[INFO] step:    0/  77, loss: 1.205579, cer: 0.71, elapsed: 1.17s 0.08m 7.16h, lr: 0.000100
+[INFO] step:   50/  77, loss: 1.027151, cer: 0.71, elapsed: 1.27s 1.13m 7.17h, lr: 0.000100
+[INFO] Epoch 38 (Validation) Loss 0.9779  CER 0.7074
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 77 is less than current step: 30030. Dropping entry: {'Validation CER/epoch': 0.7074207377735484, '_timestamp': 1702170775.2265973}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 77 is less than current step: 30030. Dropping entry: {'Validation loss/epoch': 0.9778545785259891, '_timestamp': 1702170775.2270455}).
+Model saved
+[INFO] epoch 38 is done
+[INFO] Epoch 39 start
+[INFO] train Start
+[INFO] step:    0/ 308, loss: 0.099265, cer: 0.71, elapsed: 1.80s 0.09m 7.19h, lr: 0.000100
+[INFO] step:   50/ 308, loss: 0.119718, cer: 0.71, elapsed: 1.63s 1.58m 7.21h, lr: 0.000100
+[INFO] step:  100/ 308, loss: 0.123422, cer: 0.71, elapsed: 1.65s 3.07m 7.24h, lr: 0.000100
+[INFO] step:  150/ 308, loss: 0.111002, cer: 0.71, elapsed: 1.69s 4.56m 7.26h, lr: 0.000100
+[INFO] step:  200/ 308, loss: 0.092184, cer: 0.71, elapsed: 1.73s 6.06m 7.28h, lr: 0.000100
+[INFO] step:  250/ 308, loss: 0.128892, cer: 0.71, elapsed: 1.75s 7.56m 7.31h, lr: 0.000100
+[INFO] step:  300/ 308, loss: 0.117229, cer: 0.71, elapsed: 1.84s 9.07m 7.34h, lr: 0.000100
+[INFO] Epoch 39 (Training) Loss 0.1253 CER 0.7072
+[INFO] valid Start
+[INFO] step:    0/  77, loss: 0.905654, cer: 0.71, elapsed: 1.26s 0.08m 7.34h, lr: 0.000100
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 308 is less than current step: 30646. Dropping entry: {'Training CER/epoch': 0.7071626045530957, '_timestamp': 1702171337.6577342}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 308 is less than current step: 30646. Dropping entry: {'Training loss/epoch': 0.12532153396637408, '_timestamp': 1702171337.6580367}).
+[INFO] step:   50/  77, loss: 0.842209, cer: 0.71, elapsed: 1.17s 1.12m 7.36h, lr: 0.000100
+[INFO] Epoch 39 (Validation) Loss 0.9735  CER 0.7073
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 77 is less than current step: 30800. Dropping entry: {'Validation CER/epoch': 0.7072876878783507, '_timestamp': 1702171438.862346}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 77 is less than current step: 30800. Dropping entry: {'Validation loss/epoch': 0.9734703658463119, '_timestamp': 1702171438.8626792}).
+Model saved
+[INFO] epoch 39 is done
+[INFO] Epoch 40 start
+[INFO] train Start
+[INFO] step:    0/ 308, loss: 0.119573, cer: 0.71, elapsed: 2.00s 0.09m 7.37h, lr: 0.000100
+[INFO] step:   50/ 308, loss: 0.103925, cer: 0.71, elapsed: 1.67s 1.60m 7.39h, lr: 0.000100
+[INFO] step:  100/ 308, loss: 0.117921, cer: 0.71, elapsed: 1.79s 3.09m 7.42h, lr: 0.000100
+[INFO] step:  150/ 308, loss: 0.177228, cer: 0.71, elapsed: 2.05s 4.59m 7.44h, lr: 0.000100
+[INFO] step:  200/ 308, loss: 0.140043, cer: 0.71, elapsed: 1.87s 6.08m 7.47h, lr: 0.000100
+[INFO] step:  250/ 308, loss: 0.108088, cer: 0.71, elapsed: 1.79s 7.56m 7.49h, lr: 0.000100
+[INFO] step:  300/ 308, loss: 0.127416, cer: 0.71, elapsed: 1.71s 9.06m 7.52h, lr: 0.000100
+[INFO] Epoch 40 (Training) Loss 0.1271 CER 0.7069
+[INFO] valid Start
+[INFO] step:    0/  77, loss: 1.077586, cer: 0.71, elapsed: 1.15s 0.08m 7.52h, lr: 0.000100
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 308 is less than current step: 31416. Dropping entry: {'Training CER/epoch': 0.7069114830738034, '_timestamp': 1702172001.0417526}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 308 is less than current step: 31416. Dropping entry: {'Training loss/epoch': 0.127087737639229, '_timestamp': 1702172001.0421202}).
+[INFO] step:   50/  77, loss: 0.940555, cer: 0.71, elapsed: 1.17s 1.12m 7.54h, lr: 0.000100
+[INFO] Epoch 40 (Validation) Loss 0.9814  CER 0.7072
+Model saved
+[INFO] epoch 40 is done
+[INFO] Epoch 41 start
+[INFO] train Start
+[INFO] step:    0/ 308, loss: 0.105514, cer: 0.71, elapsed: 1.67s 0.09m 7.55h, lr: 0.000100
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 77 is less than current step: 31570. Dropping entry: {'Validation CER/epoch': 0.707171263610398, '_timestamp': 1702172102.2279541}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 77 is less than current step: 31570. Dropping entry: {'Validation loss/epoch': 0.981371929893246, '_timestamp': 1702172102.2283294}).
+[INFO] step:   50/ 308, loss: 0.131383, cer: 0.71, elapsed: 1.64s 1.59m 7.58h, lr: 0.000100
+[INFO] step:  100/ 308, loss: 0.082924, cer: 0.71, elapsed: 1.74s 3.09m 7.60h, lr: 0.000100
+[INFO] step:  150/ 308, loss: 0.149270, cer: 0.71, elapsed: 1.86s 4.55m 7.63h, lr: 0.000100
+[INFO] step:  200/ 308, loss: 0.172949, cer: 0.71, elapsed: 1.79s 6.05m 7.65h, lr: 0.000100
+[INFO] step:  250/ 308, loss: 0.138738, cer: 0.71, elapsed: 1.81s 7.56m 7.68h, lr: 0.000100
+[INFO] step:  300/ 308, loss: 0.109184, cer: 0.71, elapsed: 1.68s 9.06m 7.70h, lr: 0.000100
+[INFO] Epoch 41 (Training) Loss 0.1241 CER 0.7069
+[INFO] valid Start
+[INFO] step:    0/  77, loss: 0.954195, cer: 0.71, elapsed: 1.26s 0.08m 7.71h, lr: 0.000100
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 308 is less than current step: 32186. Dropping entry: {'Training CER/epoch': 0.7069319223483573, '_timestamp': 1702172662.965514}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 308 is less than current step: 32186. Dropping entry: {'Training loss/epoch': 0.12405573196902678, '_timestamp': 1702172662.9658656}).
+[INFO] step:   50/  77, loss: 1.164905, cer: 0.71, elapsed: 1.27s 1.12m 7.73h, lr: 0.000100
+[INFO] Epoch 41 (Validation) Loss 0.9894  CER 0.7072
+Model saved
+[INFO] epoch 41 is done
+[INFO] Epoch 42 start
+[INFO] train Start
+[INFO] step:    0/ 308, loss: 0.114730, cer: 0.71, elapsed: 1.84s 0.09m 7.74h, lr: 0.000100
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 77 is less than current step: 32340. Dropping entry: {'Validation CER/epoch': 0.7072268472283116, '_timestamp': 1702172763.325536}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 77 is less than current step: 32340. Dropping entry: {'Validation loss/epoch': 0.9894040544311722, '_timestamp': 1702172763.3258958}).
+[INFO] step:   50/ 308, loss: 0.104463, cer: 0.71, elapsed: 1.99s 1.58m 7.76h, lr: 0.000100
+[INFO] step:  100/ 308, loss: 0.139467, cer: 0.71, elapsed: 1.78s 3.07m 7.79h, lr: 0.000100
+[INFO] step:  150/ 308, loss: 0.126282, cer: 0.71, elapsed: 1.83s 4.55m 7.81h, lr: 0.000100
+[INFO] step:  200/ 308, loss: 0.166921, cer: 0.71, elapsed: 1.63s 6.06m 7.84h, lr: 0.000100
+[INFO] step:  250/ 308, loss: 0.160950, cer: 0.71, elapsed: 1.83s 7.55m 7.86h, lr: 0.000100
+[INFO] step:  300/ 308, loss: 0.115878, cer: 0.71, elapsed: 1.82s 9.03m 7.89h, lr: 0.000100
+[INFO] Epoch 42 (Training) Loss 0.1248 CER 0.7069
+[INFO] valid Start
+[INFO] step:    0/  77, loss: 0.954476, cer: 0.71, elapsed: 1.17s 0.07m 7.89h, lr: 0.000100
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 308 is less than current step: 32956. Dropping entry: {'Training CER/epoch': 0.7068920199699582, '_timestamp': 1702173322.0846565}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 308 is less than current step: 32956. Dropping entry: {'Training loss/epoch': 0.1248377717354081, '_timestamp': 1702173322.0850146}).
+[INFO] step:   50/  77, loss: 0.853821, cer: 0.71, elapsed: 1.25s 1.10m 7.91h, lr: 0.000100
+[INFO] Epoch 42 (Validation) Loss 0.9850  CER 0.7070
+Model saved
+[INFO] epoch 42 is done
+[INFO] Epoch 43 start
+[INFO] train Start
+[INFO] step:    0/ 308, loss: 0.122318, cer: 0.71, elapsed: 1.61s 0.08m 7.92h, lr: 0.000100
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 77 is less than current step: 33110. Dropping entry: {'Validation CER/epoch': 0.7070099422471787, '_timestamp': 1702173421.276667}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 77 is less than current step: 33110. Dropping entry: {'Validation loss/epoch': 0.9849870522300919, '_timestamp': 1702173421.2770135}).
+[INFO] step:   50/ 308, loss: 0.111299, cer: 0.71, elapsed: 1.64s 1.60m 7.95h, lr: 0.000100
+[INFO] step:  100/ 308, loss: 0.108528, cer: 0.71, elapsed: 1.59s 3.10m 7.97h, lr: 0.000100
+[INFO] step:  150/ 308, loss: 0.147988, cer: 0.71, elapsed: 1.86s 4.59m 8.00h, lr: 0.000100
+[INFO] step:  200/ 308, loss: 0.131980, cer: 0.71, elapsed: 1.74s 6.07m 8.02h, lr: 0.000100
+[INFO] step:  250/ 308, loss: 0.105165, cer: 0.71, elapsed: 1.79s 7.56m 8.05h, lr: 0.000100
+[INFO] step:  300/ 308, loss: 0.123549, cer: 0.71, elapsed: 1.65s 9.06m 8.07h, lr: 0.000100
+[INFO] Epoch 43 (Training) Loss 0.1171 CER 0.7067
+[INFO] valid Start
+[INFO] step:    0/  77, loss: 0.948196, cer: 0.71, elapsed: 1.17s 0.08m 8.08h, lr: 0.000100
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 308 is less than current step: 33726. Dropping entry: {'Training CER/epoch': 0.7067300824408125, '_timestamp': 1702173983.475313}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 308 is less than current step: 33726. Dropping entry: {'Training loss/epoch': 0.11708322261738313, '_timestamp': 1702173983.4756498}).
+[INFO] step:   50/  77, loss: 0.880408, cer: 0.71, elapsed: 1.22s 1.10m 8.09h, lr: 0.000100
+[INFO] Epoch 43 (Validation) Loss 0.9871  CER 0.7069
+Model saved
+[INFO] epoch 43 is done
+[INFO] Epoch 44 start
+[INFO] train Start
+[INFO] step:    0/ 308, loss: 0.079260, cer: 0.71, elapsed: 1.62s 0.08m 8.10h, lr: 0.000100
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 77 is less than current step: 33880. Dropping entry: {'Validation CER/epoch': 0.7069117458962545, '_timestamp': 1702174083.3210452}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 77 is less than current step: 33880. Dropping entry: {'Validation loss/epoch': 0.987128467528851, '_timestamp': 1702174083.321387}).
+[INFO] step:   50/ 308, loss: 0.080119, cer: 0.71, elapsed: 1.79s 1.56m 8.13h, lr: 0.000100
+[INFO] step:  100/ 308, loss: 0.125830, cer: 0.71, elapsed: 2.23s 3.20m 8.16h, lr: 0.000100
+[INFO] step:  150/ 308, loss: 0.105900, cer: 0.71, elapsed: 2.23s 5.11m 8.19h, lr: 0.000100
+[INFO] step:  200/ 308, loss: 0.152829, cer: 0.71, elapsed: 1.96s 6.98m 8.22h, lr: 0.000100
+[INFO] step:  250/ 308, loss: 0.163049, cer: 0.71, elapsed: 1.70s 8.47m 8.24h, lr: 0.000100
+Traceback (most recent call last):
+  File "main.py", line 224, in <module>
+    model, train_loss, train_cer = trainer(
+  File "/root/STT/yj/modules/trainer.py", line 67, in trainer
+    cer = metric(targets[:, 1:], y_hats)
+  File "/root/STT/yj/modules/metrics.py", line 74, in __call__
+    dist, length = self._get_distance(targets, y_hats)
+  File "/root/STT/yj/modules/metrics.py", line 96, in _get_distance
+    s2 = self.vocab.label_to_string(y_hat)
+  File "/root/STT/yj/modules/vocab.py", line 51, in label_to_string
+    if label.item() == self.eos_id:
+KeyboardInterrupt

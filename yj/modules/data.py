@@ -165,7 +165,7 @@ def load_dataset(transcripts_path):
     return audio_paths, transcripts
 
 # 고쳐서 전체 dataset 쓰게 하기
-def split_dataset(config, transcripts_path: str, vocab: Vocabulary, valid_size=0.00001):
+def split_dataset(config, transcripts_path: str, vocab: Vocabulary, valid_size=0.2):
     """
     split into training set and validation set.
 

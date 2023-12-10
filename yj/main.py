@@ -86,9 +86,9 @@ if __name__ == '__main__':
 
     # Parameters 
     args.add_argument('--use_cuda', type=bool, default=True)
-    args.add_argument('--seed', type=int, default=42) #777->42
-    args.add_argument('--num_epochs', type=int, default=50) #50
-    args.add_argument('--batch_size', type=int, default=128)
+    args.add_argument('--seed', type=int, default=777) #777->42
+    args.add_argument('--num_epochs', type=int, default=100) #50
+    args.add_argument('--batch_size', type=int, default=64) #128 -> 64
     args.add_argument('--save_result_every', type=int, default=10)
     args.add_argument('--checkpoint_every', type=int, default=1)
     args.add_argument('--print_every', type=int, default=50)
@@ -112,7 +112,7 @@ if __name__ == '__main__':
     args.add_argument('--architecture', type=str, default='deepspeech2')
     args.add_argument('--use_bidirectional', type=bool, default=True)
     args.add_argument('--dropout', type=float, default=3e-01)
-    args.add_argument('--num_encoder_layers', type=int, default=3)
+    args.add_argument('--num_encoder_layers', type=int, default=5) #3 -> 5
     args.add_argument('--hidden_dim', type=int, default=1024)
     args.add_argument('--rnn_type', type=str, default='gru')
     args.add_argument('--max_len', type=int, default=400)
@@ -149,8 +149,8 @@ if __name__ == '__main__':
         torch.set_num_threads(config.num_threads)
     
     #TODO (dataset_path 정하기. Vocabulary 만들기)
-    DATASET_PATH = ""
-    Model_PATH = ""
+    DATASET_PATH = "../../train_audio"
+    Model_PATH = "../../models2"
 
      #TODO
     # start a new wandb run to track this script
@@ -171,10 +171,10 @@ if __name__ == '__main__':
     # generate_character_labels(transcript_df, label_dest) #-> 이건 main에서 하자!
     # print("generated yj_labels.csv")
     # #labels.csv 대신 다른 거 쓰기
-    vocab = KoreanSpeechVocabulary(os.path.join(os.getcwd(), 'newlabel.csv'), output_unit='character')
-    #vocab = KoreanSpeechVocabulary(os.path.join(os.getcwd(), 'labels.csv'), output_unit='character')
+    #vocab = KoreanSpeechVocabulary(os.path.join(os.getcwd(), 'newlabel.csv'), output_unit='character')
+    vocab = KoreanSpeechVocabulary(os.path.join(os.getcwd(), 'labels.csv'), output_unit='character')
     model = build_model(config, vocab, device)
-    optimizer = get_optimizer(model, config)
+    orig_optimizer = get_optimizer(model, config)
     metric = get_metric(metric_name='CER', vocab=vocab)
 
    
@@ -182,14 +182,14 @@ if __name__ == '__main__':
     if config.mode == 'train':
 
         #Load DATASET
-        config.dataset_path = os.path.join(DATASET_PATH, 'train', 'train_data')
-        label_path = os.path.join(DATASET_PATH, 'train', 'train_label')
+        config.dataset_path = DATASET_PATH #os.path.join(DATASET_PATH, 'train', 'train_data')
+        label_path = "../../train_transcript.csv" #os.path.join(DATASET_PATH, 'train', 'train_label')
         
         ##labels.csv 대신 다른 거 쓰기
-        vocab = KoreanSpeechVocabulary(os.path.join(os.getcwd(), 'newlabel.csv'), output_unit='character')
+        vocab = KoreanSpeechVocabulary(os.path.join(os.getcwd(), 'labels.csv'), output_unit='character')
         #vocab = KoreanSpeechVocabulary(os.path.join(os.getcwd(), 'labels.csv'), output_unit='character')
         model = build_model(config, vocab, device)
-        optimizer = get_optimizer(model, config)
+        orig_optimizer = get_optimizer(model, config)
         metric = get_metric(metric_name='CER', vocab=vocab)
         #preprocessing
         preprocessing(label_path, os.getcwd())
@@ -199,8 +199,8 @@ if __name__ == '__main__':
         #train_dataset, valid_dataset = split_dataset(config, os.path.join(os.getcwd(), 'yj_transcripts.txt'), vocab)
         train_dataset, valid_dataset = split_dataset(config, os.path.join(os.getcwd(), 'transcripts.txt'), vocab)
         #train_datasets, valid_datasets = split_and_cross_validate(config, os.path.join(os.getcwd(), 'transcripts.txt'), vocab)
-        lr_scheduler = get_lr_scheduler(config, optimizer, len(train_dataset))
-        optimizer = Optimizer(optimizer, lr_scheduler, int(len(train_dataset)*config.num_epochs), config.max_grad_norm)
+        lr_scheduler = get_lr_scheduler(config, orig_optimizer, len(train_dataset))
+        optimizer = Optimizer(orig_optimizer, lr_scheduler, int(len(train_dataset)*config.num_epochs), config.max_grad_norm)
         criterion = get_criterion(config, vocab)
 
         num_epochs = config.num_epochs
@@ -230,8 +230,7 @@ if __name__ == '__main__':
                 criterion,
                 metric,
                 train_begin_time,
-                device,
-                vocab
+                device
             )
 
             print('[INFO] Epoch %d (Training) Loss %0.4f CER %0.4f' % (epoch, train_loss, train_cer))
@@ -255,8 +254,7 @@ if __name__ == '__main__':
                 criterion,
                 metric,
                 train_begin_time,
-                device,
-                vocab
+                device
             )
 
             print('[INFO] Epoch %d (Validation) Loss %0.4f  CER %0.4f' % (epoch, valid_loss, valid_cer))
@@ -264,7 +262,7 @@ if __name__ == '__main__':
             if epoch % config.checkpoint_every == 0:
                 state = {
                     'model': model.state_dict(),
-                    'optimizer': optimizer.state_dict()
+                    'optimizer': orig_optimizer.state_dict()
                     }
                 model_filename = str(epoch) + '.pt'
                 torch.save(state, os.path.join(Model_PATH, model_filename))

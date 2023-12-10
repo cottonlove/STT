@@ -150,7 +150,7 @@ def generate_character_script(data_df, labels_dest): #transcript_df, os.getcwd()
 
     print('[INFO] create_script started..') 
     #char2id, id2char = load_label(os.path.join(labels_dest, "labels.csv"))
-    char2id, id2char = load_label(os.path.join(labels_dest, "newlabel.csv")) #labels2.csv
+    char2id, id2char = load_label(os.path.join(labels_dest, "labels.csv")) #labels2.csv
     with open(os.path.join(labels_dest,"transcripts.txt"), "w+") as f:
     #with open(os.path.join(labels_dest,"yj_transcripts.txt"), "w+") as f:
         for audio_path, transcript in data_df.values:

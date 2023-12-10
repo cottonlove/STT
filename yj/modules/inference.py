@@ -54,8 +54,8 @@ def single_infer(model, audio_path):
     #load vocabulary (여기서도 vocabulary 바꿔주기 labels.csv대신 만든 csvfile로 바꾸기!)
     # os.getcwd() = '/app/modules'
 
-    vocab = KoreanSpeechVocabulary(os.path.join(os.getcwd(),'newlabel.csv'), output_unit='character')
-    #vocab = KoreanSpeechVocabulary(os.path.join(os.getcwd(), 'labels.csv'), output_unit='character')
+    #vocab = KoreanSpeechVocabulary(os.path.join(os.getcwd(),'newlabel.csv'), output_unit='character')
+    vocab = KoreanSpeechVocabulary(os.path.join(os.getcwd(), 'labels.csv'), output_unit='character')
 
     if isinstance(model, nn.DataParallel):
         model = model.module
@@ -64,8 +64,8 @@ def single_infer(model, audio_path):
     model.device = device
     y_hats = model.recognize(feature.unsqueeze(0).to(device), input_length)
     sentence = vocab.label_to_string(y_hats.cpu().detach().numpy())
-    print('before revising, sentence: ', sentence)
+    #print('before revising, sentence: ', sentence)
     #post-processing 들어갈 부분
     sentence = revise(sentence)
-    print('after revising: ',sentence)
+    #print('after revising: ',sentence)
     return sentence

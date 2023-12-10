@@ -1,0 +1,28 @@
+2023-12-09 17:32:30,783 INFO    MainThread:716264 [wandb_setup.py:_flush():76] Current SDK version is 0.16.1
+2023-12-09 17:32:30,783 INFO    MainThread:716264 [wandb_setup.py:_flush():76] Configure stats pid to 716264
+2023-12-09 17:32:30,783 INFO    MainThread:716264 [wandb_setup.py:_flush():76] Loading settings from /root/.config/wandb/settings
+2023-12-09 17:32:30,783 INFO    MainThread:716264 [wandb_setup.py:_flush():76] Loading settings from /root/STT/yj/wandb/settings
+2023-12-09 17:32:30,783 INFO    MainThread:716264 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-12-09 17:32:30,783 INFO    MainThread:716264 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-12-09 17:32:30,783 INFO    MainThread:716264 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'yj/main.py', 'program_abspath': '/root/STT/yj/main.py', 'program': 'main.py'}
+2023-12-09 17:32:30,783 INFO    MainThread:716264 [wandb_init.py:_log_setup():524] Logging user logs to /root/STT/yj/wandb/run-20231209_173230-6llbe8eh/logs/debug.log
+2023-12-09 17:32:30,783 INFO    MainThread:716264 [wandb_init.py:_log_setup():525] Logging internal logs to /root/STT/yj/wandb/run-20231209_173230-6llbe8eh/logs/debug-internal.log
+2023-12-09 17:32:30,783 INFO    MainThread:716264 [wandb_init.py:init():564] calling init triggers
+2023-12-09 17:32:30,784 INFO    MainThread:716264 [wandb_init.py:init():571] wandb.init called with sweep_config: {}
+config: {}
+2023-12-09 17:32:30,784 INFO    MainThread:716264 [wandb_init.py:init():614] starting backend
+2023-12-09 17:32:30,784 INFO    MainThread:716264 [wandb_init.py:init():618] setting up manager
+2023-12-09 17:32:30,786 INFO    MainThread:716264 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-12-09 17:32:30,788 INFO    MainThread:716264 [wandb_init.py:init():624] backend started and connected
+2023-12-09 17:32:30,793 INFO    MainThread:716264 [wandb_init.py:init():716] updated telemetry
+2023-12-09 17:32:30,834 INFO    MainThread:716264 [wandb_init.py:init():749] communicating run to backend with 90.0 second timeout
+2023-12-09 17:32:31,372 INFO    MainThread:716264 [wandb_run.py:_on_init():2254] communicating current version
+2023-12-09 17:32:31,414 INFO    MainThread:716264 [wandb_run.py:_on_init():2263] got version response 
+2023-12-09 17:32:31,415 INFO    MainThread:716264 [wandb_init.py:init():800] starting run threads in backend
+2023-12-09 17:32:35,751 INFO    MainThread:716264 [wandb_run.py:_console_start():2233] atexit reg
+2023-12-09 17:32:35,751 INFO    MainThread:716264 [wandb_run.py:_redirect():2088] redirect: wrap_raw
+2023-12-09 17:32:35,751 INFO    MainThread:716264 [wandb_run.py:_redirect():2153] Wrapping output streams.
+2023-12-09 17:32:35,751 INFO    MainThread:716264 [wandb_run.py:_redirect():2178] Redirects installed.
+2023-12-09 17:32:35,753 INFO    MainThread:716264 [wandb_init.py:init():841] run started, returning control to user process
+2023-12-09 17:32:35,755 INFO    MainThread:716264 [wandb_run.py:_config_callback():1342] config_cb None None {'mode': 'train', 'iteration': '0', 'pause': 0, 'use_cuda': True, 'seed': 777, 'num_epochs': 100, 'batch_size': 64, 'save_result_every': 10, 'checkpoint_every': 1, 'print_every': 50, 'dataset': 'kspon', 'output_unit': 'character', 'num_workers': 16, 'num_threads': 16, 'init_lr': 1e-06, 'final_lr': 1e-06, 'peak_lr': 0.0001, 'init_lr_scale': 0.01, 'final_lr_scale': 0.05, 'max_grad_norm': 400, 'warmup_steps': 1000, 'weight_decay': 1e-05, 'reduction': 'mean', 'optimizer': 'adam', 'lr_scheduler': 'tri_stage_lr_scheduler', 'total_steps': 200000, 'architecture': 'deepspeech2', 'use_bidirectional': True, 'dropout': 0.3, 'num_encoder_layers': 5, 'hidden_dim': 1024, 'rnn_type': 'gru', 'max_len': 400, 'activation': 'hardtanh', 'teacher_forcing_ratio': 1.0, 'teacher_forcing_step': 0.0, 'min_teacher_forcing_ratio': 1.0, 'joint_ctc_attention': True, 'audio_extension': 'wav', 'transform_method': 'fbank', 'feature_extract_by': 'kaldi', 'sample_rate': 16000, 'frame_length': 20, 'frame_shift': 10, 'n_mels': 80, 'freq_mask_para': 18, 'time_mask_num': 4, 'freq_mask_num': 2, 'normalize': True, 'del_silence': True, 'spec_augment': True, 'input_reverse': False}
+2023-12-09 18:01:24,081 WARNING MsgRouterThr:716264 [router.py:message_loop():77] message_loop has been closed

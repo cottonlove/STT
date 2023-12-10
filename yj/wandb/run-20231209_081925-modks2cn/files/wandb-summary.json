@@ -1,0 +1,1 @@
+{"Training loss/step": 5.4673614501953125, "_timestamp": 1702110724.0390427, "_runtime": 758.6475446224213, "_step": 385, "Training CER/step": 12.870326918228422, "Validation loss/step": 5.457605838775635, "Validation CER/step": 10.435557551408815, "_wandb": {"runtime": 759}}

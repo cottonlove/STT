@@ -62,9 +62,11 @@ def trainer(mode, config, dataloader, optimizer, model, criterion, metric, train
             epoch_loss_total += loss.item()
 
             torch.cuda.empty_cache()
-            wandb.log({"Training loss": loss})
+            
+            wandb.log({"Training loss/step": loss})
             cer = metric(targets[:, 1:], y_hats)
-            wandb.log({"Training CER": cer})
+            wandb.log({"Training CER/step": cer})
+            
             if cnt % config.print_every == 0:
                 current_time = time.time()
                 elapsed = current_time - begin_time
@@ -78,7 +80,9 @@ def trainer(mode, config, dataloader, optimizer, model, criterion, metric, train
                 ))
 
             cnt += 1
-    else:
+        wandb.log({"Training CER/epoch": metric(targets[:, 1:],y_hats)}, step = cnt)  
+        wandb.log({"Training loss/epoch": epoch_loss_total/len(dataloader)}, step = cnt)
+    else: #Validation
         for inputs, targets, input_lengths, target_lengths in dataloader:
             begin_time = time.time()
 
@@ -103,9 +107,9 @@ def trainer(mode, config, dataloader, optimizer, model, criterion, metric, train
             epoch_loss_total += loss.item()
 
             torch.cuda.empty_cache()
-            wandb.log({"Validation loss": loss})
+            wandb.log({"Validation loss/step": loss})
             cer = metric(targets[:, 1:], y_hats)
-            wandb.log({"Validation CER": cer})
+            wandb.log({"Validation CER/step": cer})
             
             if cnt % config.print_every == 0:
 
@@ -120,5 +124,6 @@ def trainer(mode, config, dataloader, optimizer, model, criterion, metric, train
                     optimizer.get_lr(),
                 ))
             cnt += 1
-
+        wandb.log({"Validation CER/epoch": metric(targets[:, 1:],y_hats)}, step = cnt)  
+        wandb.log({"Validation loss/epoch": epoch_loss_total/len(dataloader)}, step = cnt)
     return model, epoch_loss_total/len(dataloader), metric(targets[:, 1:], y_hats)

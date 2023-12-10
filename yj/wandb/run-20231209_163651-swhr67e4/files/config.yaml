@@ -1,0 +1,189 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    python_version: 3.8.10
+    cli_version: 0.16.1
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1702139811.070604
+    t:
+      1:
+      - 1
+      - 5
+      - 53
+      - 55
+      2:
+      - 1
+      - 5
+      - 53
+      - 55
+      3:
+      - 17
+      - 23
+      - 37
+      4: 3.8.10
+      5: 0.16.1
+      8:
+      - 5
+      10:
+      - 3
+      13: linux-x86_64
+mode:
+  desc: null
+  value: train
+iteration:
+  desc: null
+  value: '0'
+pause:
+  desc: null
+  value: 0
+use_cuda:
+  desc: null
+  value: true
+seed:
+  desc: null
+  value: 777
+num_epochs:
+  desc: null
+  value: 100
+batch_size:
+  desc: null
+  value: 128
+save_result_every:
+  desc: null
+  value: 10
+checkpoint_every:
+  desc: null
+  value: 1
+print_every:
+  desc: null
+  value: 50
+dataset:
+  desc: null
+  value: kspon
+output_unit:
+  desc: null
+  value: character
+num_workers:
+  desc: null
+  value: 16
+num_threads:
+  desc: null
+  value: 16
+init_lr:
+  desc: null
+  value: 1.0e-06
+final_lr:
+  desc: null
+  value: 1.0e-06
+peak_lr:
+  desc: null
+  value: 0.0001
+init_lr_scale:
+  desc: null
+  value: 0.01
+final_lr_scale:
+  desc: null
+  value: 0.05
+max_grad_norm:
+  desc: null
+  value: 400
+warmup_steps:
+  desc: null
+  value: 1000
+weight_decay:
+  desc: null
+  value: 1.0e-05
+reduction:
+  desc: null
+  value: mean
+optimizer:
+  desc: null
+  value: adam
+lr_scheduler:
+  desc: null
+  value: tri_stage_lr_scheduler
+total_steps:
+  desc: null
+  value: 200000
+architecture:
+  desc: null
+  value: deepspeech2
+use_bidirectional:
+  desc: null
+  value: true
+dropout:
+  desc: null
+  value: 0.3
+num_encoder_layers:
+  desc: null
+  value: 5
+hidden_dim:
+  desc: null
+  value: 1024
+rnn_type:
+  desc: null
+  value: gru
+max_len:
+  desc: null
+  value: 400
+activation:
+  desc: null
+  value: hardtanh
+teacher_forcing_ratio:
+  desc: null
+  value: 1.0
+teacher_forcing_step:
+  desc: null
+  value: 0.0
+min_teacher_forcing_ratio:
+  desc: null
+  value: 1.0
+joint_ctc_attention:
+  desc: null
+  value: true
+audio_extension:
+  desc: null
+  value: wav
+transform_method:
+  desc: null
+  value: fbank
+feature_extract_by:
+  desc: null
+  value: kaldi
+sample_rate:
+  desc: null
+  value: 16000
+frame_length:
+  desc: null
+  value: 20
+frame_shift:
+  desc: null
+  value: 10
+n_mels:
+  desc: null
+  value: 80
+freq_mask_para:
+  desc: null
+  value: 18
+time_mask_num:
+  desc: null
+  value: 4
+freq_mask_num:
+  desc: null
+  value: 2
+normalize:
+  desc: null
+  value: true
+del_silence:
+  desc: null
+  value: true
+spec_augment:
+  desc: null
+  value: true
+input_reverse:
+  desc: null
+  value: false

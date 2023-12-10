@@ -1,0 +1,9 @@
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.run.save without any arguments is deprecated.Changes to attributes are automatically persisted.
+Traceback (most recent call last):
+  File "main.py", line 176, in <module>
+    model = build_model(config, vocab, device)
+  File "/root/STT/yj/modules/model.py", line 553, in build_model
+    model = build_deepspeech2(
+  File "/root/STT/yj/modules/model.py", line 531, in build_deepspeech2
+    return nn.DataParallel(DeepSpeech2(
+TypeError: __init__() got an unexpected keyword argument 'device_ids'

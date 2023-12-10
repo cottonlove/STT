@@ -527,7 +527,7 @@ def build_deepspeech2(
         raise ParameterError("hidden_dim should be greater than 0")
     if num_rnn_layers < 0:
         raise ParameterError("num_layers should be greater than 0")
-
+   
     return nn.DataParallel(DeepSpeech2(
         input_dim=input_size,
         num_classes=num_classes,
@@ -538,7 +538,8 @@ def build_deepspeech2(
         bidirectional=bidirectional,
         activation=activation,
         device=device,
-    )).to(device)
+       
+    ),device_ids = [0,1,2,3]).to(device)
 
 
 def build_model(
