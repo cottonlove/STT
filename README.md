@@ -25,7 +25,7 @@ Deepspeech2 (#encoders: 5)
 - Dialect 전사기준: 0.225
 
 ## Train loss, CER
-<img src="https://github.com/cottonlove/STT/images/VallossCER.png"  width="700" height="370" />
+<img src="images/VallossCER.png"  width="700" height="370" />
 
 ## Validation loss, CER
 <img src="./images/trainlossCER.png"  width="700" height="370" />
