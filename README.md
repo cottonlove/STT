@@ -25,9 +25,11 @@ Deepspeech2 (#encoders: 5)
 - Dialect 전사기준: 0.225
 
 ## Train loss, CER
-<img src="images/VallossCER.png"  width="700" height="370" />
+![train](https://github.com/cottonlove/STT/blob/main/images/trainlossCER.png)
+
 
 ## Validation loss, CER
-<img src="./images/trainlossCER.png"  width="700" height="370" />
+![val](https://github.com/cottonlove/STT/blob/main/images/VallossCER.png)
 
+## Reference
 베이스라인 코드는 김수환 님께서 개발해 공개하신 kospeech (https://github.com/sooftware/kospeech) 를 기반으로 하였습니다.
